@@ -1,0 +1,174 @@
+﻿{
+    "components": [
+        
+        {
+            "type": "Button",
+            "spec": {
+                "name": "connect_quiz_connect_text_button",
+                "normal": "connect_quiz_connect_text_disabled",              
+                "pressedSound": "bt_down_sound",
+                "activeNormal" : "connect_quiz_connect_text_enabled",
+                "activeNormalTextProperties" : "connect_quiz_connect_text_button_tp"
+            }
+        },
+        {
+            "type": "Button",
+            "spec": {
+                "name": "connect_quiz_text_button",
+                "normal": "connect_quiz_text_box",            
+                "pressedSound": "bt_down_sound",
+				"normalTextProperties": "connect_quiz_text_button_tp"
+            }
+        },
+        {
+            "type": "TextBox",
+            "spec": {
+                "name": "connect_quiz_title_text",
+                "defaultDisplayProperties" : "connect_quiz_title_text_dp",
+                "image": "connect_quiz_title_box",
+                "textProperties" : "connect_quiz_title_text_tp"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "connect_quiz_image_group_background",
+                "image": "connect_quiz_image_group_background",
+                "defaultDisplayProperties" : "connect_quiz_text_group_background_dp"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "connect_quiz_text_group_background",
+                "image": "connect_quiz_text_group_background",
+                "defaultDisplayProperties" : "connect_quiz_text_group_background_dp"
+            }
+        },
+        {
+            "type": "TextBox",
+            "spec": {
+                "name": "connect_quiz_points_text",
+                "image": "quiz_points_box",
+                "textProperties" : "connect_quiz_points_text_tp",
+                "defaultDisplayProperties" : "connect_quiz_points_dp"
+            }
+        },
+        {
+            "type": "Button",
+            "spec": {
+                "name": "connect_quiz_confirm_button",
+                "defaultDisplayProperties" : "connect_quiz_confirm_bt_dp",
+                "normal": "quiz_go_button_up",
+                "over": "quiz_go_button_over",
+                "down": "quiz_go_button_down",
+                "overSound": "bt_over_sound",                
+                "pressedSound": "bt_down_sound",
+                "disabled" : "quiz_go_button_disabled"
+            }
+        },
+        {
+            "type": "ConnectQuiz",
+            "spec": {
+                "name": "connect_quiz",
+                "defaultDisplayProperties" : "connect_quiz_dp",
+                "behaviour" : "weak",
+                "numOfAlternatives" : 4,
+                "titleText": "connect_quiz_title_text",
+                "confirmButton" : "quiz_confirm_button",
+                "confirmButtonDisplayProperties" : "connect_quiz_confirm_button_dp",
+                "pointsText" : "connect_quiz_points_text",
+                "textButton" : "connect_quiz_text_button",
+                "textGroupBackgroundImage" : "connect_quiz_text_group_background",
+                "imageGroupBackgroundImage" : "connect_quiz_image_group_background",
+                "connectButton" : "connect_quiz_connect_text_button",
+                "gridMaxCollumns" : 4,
+                "textGridXDistance" : 145,
+                "imageGridXDistance" : 145,
+                "firstGridX" : 10,
+                "firstGridY" : 80,
+                "secondGridX" : 10,
+                "secondGridY" : 290,
+                "firstConnectOffsetX" : 55,
+                "firstConnectOffsetY" : 95,
+                "secondConnectOffsetX" : 55,
+                "secondConnectOffsetY" : -25,
+                "firstImageConnectOffsetX" : 0,
+                "firstImageConnectOffsetY" : 45,
+                "drag" : false,
+                "connectSound" : "connect_sound"
+            }
+        }
+    ],
+    "displayProperties": [
+        {
+            "name": "connect_quiz_dp",
+            "x": 90,
+            "y": 100,
+            "depth" : 9999
+        },
+        {
+            "name": "connect_quiz_points_dp",
+            "x": -80,
+            "y": 50
+        },
+        {
+            "name": "connect_quiz_confirm_button_dp",
+            "x": 615,
+            "y": 355
+        },
+        {
+            "name": "connect_quiz_text_group_background_dp",
+            "x": -11,
+            "y": -7
+        },
+        {
+            "name": "connect_quiz_image_group_background_dp",
+            "x": 0,
+            "y": 0
+        }
+    ],
+    "textProperties": [
+        {
+            "name": "connect_quiz_text_button_tp",
+            "spacingX" : 2,
+            "spacingY" : 3,
+            "textOffsetX" : -2,
+            "font": "EurostileRegular",
+            "align": "center",
+            "verticalAlign": "center",
+            "textColor": 16777215,
+            "size": 12
+        },
+        {
+            "name": "connect_quiz_title_text_tp",
+            "spacingLeft" : 15,
+	    	"spacingRight" : 25,
+            "spacingY" : 3,
+            "font": "EurostileRegular",
+            "align": "center",
+            "verticalAlign": "center",
+            "textColor": 1200003,
+            "size": 13
+        },
+        {
+            "name": "connect_quiz_points_text_tp",
+            "spacingRight" : 55,
+            "font": "EurostileRegular",
+            "align": "center",
+            "textColor": 1915233,
+            "size": 30
+        },
+        {
+            "name": "connect_quiz_connect_text_button_tp",
+            "spacingX" : 2,
+            "spacingY" : 2,
+            "font": "EurostileRegular",
+            "align": "center",
+            "textColor": 1915233,
+            "textOffsetX" : -1,
+            "textOffsetY" : 5,
+            "size": 14
+        }
+    ]
+}

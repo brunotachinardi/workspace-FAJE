@@ -1,0 +1,73 @@
+{
+    "assets": [
+        {
+            "id": "preloader_bar",
+            "src": "assets/preloader/layout_loader.swf"
+        },
+        {
+            "id": "layout_bottom",
+            "src": "assets/preloader/layout_bottom.swf"
+        },
+        {
+            "id": "EurostileRegular",
+            "src": "assets/fonts/EurostileRegular.font.swf"
+        }
+    ],
+    "components": [
+        {
+            "type": "TrackerAnimation",
+            "spec": {
+            	"name" : "loader_bar",
+            	"defaultDisplayProperties" : "loader_dp",
+                "target": "LoadAssetPercentage",
+                "image" : "preloader_bar"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+            	"name" : "layout_background",
+            	"defaultDisplayProperties" : "bg_dp",
+                "image": "layout_bottom"
+            }
+        }
+    ],
+    "displayProperties": [
+        {
+            "name": "loader_dp",
+            "x" : 392,
+            "y" : 250,
+            "depth" : 2        
+        },
+        {
+            "name": "bg_dp",
+            "depth" : -9999
+        },
+        {
+            "name": "loader_text_dp",
+            "x" : 150,
+            "y" : 50,
+            "depth" : 3
+        }
+    ],
+    "textProperties": [
+        {
+		    "name": "default",
+		    "textColor": 1915233,
+		    "font": "EurostileRegular",
+		    "spacingX": 0,
+		    "spacingY": 0,
+		    "align": "center",
+		    "size": 22
+        }
+    ],
+    "screenW": 800,
+    "screenH": 600,
+    "multLang": false,
+    "dynamicLoading": false,
+    "lang": "portugues",
+    "offline" : true,
+    "showCPUStats" : false,
+    "offlineObject" : 
+    {"lessonScore":{"raw":0,"max":100,"min":0},"lessonLocation":{"states":[],"failed":1},"suspendData":{"timers":[],"vars":[],"currentQuestion":null,"answers":[]},"lessonStatus":{"status":"not attempt","studentLevel":5}}
+}

@@ -1,0 +1,609 @@
+{
+    "assets": [
+        {
+            "id": "arlindo_frente",
+            "src": "assets/images/arlindo_frente.swf"
+        },
+        {
+            "id": "arlindo_lado",
+            "src": "assets/images/arlindo.swf"
+        },
+        {
+            "id": "carro_barra",
+            "src": "assets/images/carro_progresso_bar.swf"
+        },
+        {
+            "id": "carro_bg",
+            "src": "assets/images/carro_progresso_bg.swf"
+        },
+        {
+            "id": "layout_barra",
+            "src": "assets/images/layout_top.swf"
+        },
+        {
+            "id": "novo_palco",
+            "src": "assets/images/novo_palco.swf"
+        },
+        {
+            "id": "piso azul",
+            "src": "assets/images/piso azul.swf"
+        },
+        {
+            "id": "guarita",
+            "src": "assets/images/guarita.swf"
+        },
+        {
+            "id": "EurostileBold",
+            "src": "assets/fonts/EurostileBold.font.swf"
+        },
+        {
+            "id": "EurostileLTBold",
+            "src": "assets/fonts/EurostileLTBold.font.swf"
+        },
+        {
+            "id": "EurostileLTCondensed",
+            "src": "assets/fonts/EurostileLTCondensed.font.swf"
+        },
+        {
+            "id": "btn_next_1_normal",
+            "src": "assets/images/buttons/btn_next_1_normal.swf"
+        },
+        {
+            "id": "btn_next_1_over",
+            "src": "assets/images/buttons/btn_next_1_over.swf"
+        },
+        {
+            "id": "btn_next_1_pressed",
+            "src": "assets/images/buttons/btn_next_1_pressed.swf"
+        },
+        {
+            "id": "btn_avancar2_habilitado",
+            "src": "assets/images/buttons/btn_next_1_over.swf"
+        },
+        {
+            "id": "btn_avancar2_over",
+            "src": "assets/images/buttons/btn_avancar2-over.swf"
+        },
+        {
+            "id": "btn_avancar2_pressed",
+            "src": "assets/images/buttons/btn_avancar2-pressed.swf"
+        },
+        {
+            "id": "btn_voltar2_habilitado",
+            "src": "assets/images/buttons/btn_voltar2-habilitado.swf"
+        },
+        {
+            "id": "btn_voltar2_over",
+            "src": "assets/images/buttons/btn_voltar2-over.swf"
+        },
+        {
+            "id": "btn_voltar2_pressed",
+            "src": "assets/images/buttons/btn_voltar2-pressed.swf"
+        },
+        {
+            "id": "initial_animation",
+            "src": "assets/images/initial_animation.swf"
+        },
+        {
+            "id": "quiz_config",
+            "src": "config/quiz.json.txt",
+            "priority" : -1000
+        },
+        {
+            "id": "quiz_components",
+            "src": "config/quiz_components.json.txt",
+            "priority" : -1000
+        }, 
+        {
+            "id": " connect_quiz_components",
+            "src": "config/connect_quiz_components.json.txt",
+            "priority" : -1001
+        },
+        {
+            "id": "tutorial_quiz_components",
+            "src": "config/tutorial_quiz_components.json.txt",
+            "priority" : -1001
+        },
+        {
+            "id": "quiz_points_box",
+            "src": "assets/images/quiz/quiz_points_box.swf"
+        },
+        {
+            "id": "quiz_background",
+            "src": "assets/images/quiz/quiz_background.swf"
+        },
+        {
+            "id": "quiz_text_button_active",
+            "src": "assets/images/quiz/quiz_text_button_active.swf"
+        },
+        {
+            "id": "quiz_text_button_normal",
+            "src": "assets/images/quiz/quiz_text_button_normal.swf"
+        },
+        {
+            "id": "quiz_title_box",
+            "src": "assets/images/quiz/quiz_title_box.swf"
+        },
+        {
+            "id": "quiz_go_button_up",
+            "src": "assets/images/quiz/quiz_go_button_up.swf"
+        },
+        {
+            "id": "quiz_go_button_disabled",
+            "src": "assets/images/quiz/quiz_go_button_disabled.swf"
+        },
+        {
+            "id": "quiz_go_button_down",
+            "src": "assets/images/quiz/quiz_go_button_down.swf"
+        },
+        {
+            "id": "quiz_go_button_over",
+            "src": "assets/images/quiz/quiz_go_button_over.swf"
+        },
+        {
+            "id": "anima_chamada",
+            "src": "assets/images/anima_chamada.swf",
+            "useCache" : false
+        },
+        {
+            "id": "arlindo_frente_slide03",
+            "src": "assets/images/arlindo_frente_slide03.swf"
+        },
+        {
+            "id": "arlindo_balao_fala",
+            "src": "assets/images/arlindo_balao_fala.swf"
+        },
+        {
+            "id": "arlindo_balao_fala_2",
+            "src": "assets/images/arlindo_balao_fala_2.swf"
+        },
+        {
+            "id": "scene_palco_slide03",
+            "src": "assets/images/scene_palco_slide03.swf"
+        },
+        {
+            "id": "box_iluminado_slide03",
+            "src": "assets/images/box_iluminado_slide03.swf"
+        },
+        {
+            "id": "btn_telao_auto_teste_normal",
+            "src": "assets/images/buttons/btn_telao_auto_teste_normal.swf"
+        },
+        {
+            "id": "btn_telao_alinhando_normal",
+            "src": "assets/images/buttons/btn_telao_alinhando_normal.swf"
+        },
+        {
+            "id": "palco_telao_alinhando",
+            "src": "assets/images/palco_telao_alinhando.swf"
+        },
+        {
+            "id": "quiz_car_background",
+            "src": "assets/images/quiz/quiz_car_background.swf"
+        },
+        {
+            "id": "quiz_icon_plateia_disabled",
+            "src": "assets/images/quiz/quiz_icon_plateia_disabled.swf"
+        },
+        {
+            "id": "quiz_icon_plateia_over",
+            "src": "assets/images/quiz/quiz_icon_plateia_over.swf"
+        },
+        {
+            "id": "quiz_icon_plateia_normal",
+            "src": "assets/images/quiz/quiz_icon_plateia_normal.swf"
+        },
+        {
+            "id": "quiz_icon_tel_disabled",
+            "src": "assets/images/quiz/quiz_icon_tel_disabled.swf"
+        },
+        {
+            "id": "quiz_icon_tel_normal",
+            "src": "assets/images/quiz/quiz_icon_tel_normal.swf"
+        },
+        {
+            "id": "quiz_icon_tel_over",
+            "src": "assets/images/quiz/quiz_icon_tel_over.swf"
+        },
+        {
+            "id": "quiz_icon_univers_normal",
+            "src": "assets/images/quiz/quiz_icon_univers_normal.swf"
+        },
+        {
+            "id": "quiz_icon_univers_over",
+            "src": "assets/images/quiz/quiz_icon_univers_over.swf"
+        },
+        {
+            "id": "quiz_icon_univers_disabled",
+            "src": "assets/images/quiz/quiz_icon_univers_disabled.swf"
+        },
+        {
+            "id": "tip_text_tel",
+            "src": "assets/images/quiz/tip_text_tel.swf"
+        },
+        {
+            "id": "tip_text_plateia",
+            "src": "assets/images/quiz/tip_text_plateia.swf"
+        },
+        {
+            "id": "tip_text_univers",
+            "src": "assets/images/quiz/tip_text_univers.swf"
+        },
+        {
+            "id": "quiz_tip_close_bt_normal",
+            "src": "assets/images/quiz/quiz_tip_close_bt_normal.swf"
+        },
+        {
+            "id": "arlindo_balao_fala_invertido",
+            "src": "assets/images/arlindo_balao_fala_invertido.swf"
+        },
+        {
+            "id": "comercial_animation",
+            "src": "assets/images/comercial_animation.swf"
+        },
+        {
+            "id": "btn_telao_inspecao_normal",
+            "src": "assets/images/buttons/btn_telao_inspecao_normal.swf"
+        },
+        {
+            "id": "cenario_reporter_bg",
+            "src": "assets/images/cenario_reporter_bg.swf"
+        },
+        {
+            "id": "desafio_animation",
+            "src": "assets/images/desafio_animation.swf"
+        },
+        {
+            "id": "arlindo_frente_invertido",
+            "src": "assets/images/arlindo_frente_invertido.swf"
+        },
+        {
+            "id": "connect_quiz_connect_text_disabled",
+            "src": "assets/images/quiz_connect/connect_quiz_connect_text_disabled.swf"
+        },
+        {
+            "id": "connect_quiz_connect_text_enabled",
+            "src": "assets/images/quiz_connect/connect_quiz_connect_text_enabled.swf"
+        },
+        {
+            "id": "connect_quiz_image_group_background",
+            "src": "assets/images/quiz_connect/connect_quiz_image_group_background.swf"
+        },
+        {
+            "id": "connect_quiz_text_box",
+            "src": "assets/images/quiz_connect/connect_quiz_text_box.swf"
+        },
+        {
+            "id": "connect_quiz_text_group_background",
+            "src": "assets/images/quiz_connect/connect_quiz_text_group_background.swf"
+        },
+        {
+            "id": "connect_quiz_title_box",
+            "src": "assets/images/quiz_connect/connect_quiz_title_box.swf"
+        },
+        {
+            "id": "duto_de_ar_01.png",
+            "src": "assets/images/quiz/alternatives/duto_de_ar_01.png"
+        },
+        {
+            "id": "duto_de_ar_02.png",
+            "src": "assets/images/quiz/alternatives/duto_de_ar_02.png"
+        },
+        {
+            "id": "duto_de_ar_03.png",
+            "src": "assets/images/quiz/alternatives/duto_de_ar_03.png"
+        },
+        {
+            "id": "duto_de_ar_04.png",
+            "src": "assets/images/quiz/alternatives/duto_de_ar_04.png"
+        },
+        {
+            "id": "escapamento_01.png",
+            "src": "assets/images/quiz/alternatives/escapamento_01.png"
+        },
+        {
+            "id": "escapamento_02.png",
+            "src": "assets/images/quiz/alternatives/escapamento_02.png"
+        },
+        {
+            "id": "escapamento_03.png",
+            "src": "assets/images/quiz/alternatives/escapamento_03.png"
+        },
+        {
+            "id": "escapamento_04.png",
+            "src": "assets/images/quiz/alternatives/escapamento_04.png"
+        },
+        {
+            "id": "motor_01.png",
+            "src": "assets/images/quiz/alternatives/motor_01.png"
+        },
+        {
+            "id": "motor_02.png",
+            "src": "assets/images/quiz/alternatives/motor_02.png"
+        },
+        {
+            "id": "motor_03.png",
+            "src": "assets/images/quiz/alternatives/motor_03.png"
+        },
+        {
+            "id": "motor_04.png",
+            "src": "assets/images/quiz/alternatives/motor_04.png"
+        },
+        {
+            "id": "placa_01.png",
+            "src": "assets/images/quiz/alternatives/placa_01.png"
+        },
+        {
+            "id": "placa_02.png",
+            "src": "assets/images/quiz/alternatives/placa_02.png"
+        },
+        {
+            "id": "placa_03.png",
+            "src": "assets/images/quiz/alternatives/placa_03.png"
+        },
+        {
+            "id": "placa_04.png",
+            "src": "assets/images/quiz/alternatives/placa_04.png"
+        },
+        {
+            "id": "box_feed_positivo",
+            "src": "assets/images/box_feed_positivo.swf"
+        },
+        {
+            "id": "restart_bt",
+            "src": "assets/images/restart_bt.swf"
+        },
+        {
+            "id": "box_feed_negativo",
+            "src": "assets/images/box_feed_negativo.swf"
+        },
+        {
+            "id": "chuva_de_prata",
+            "src": "assets/images/chuva_de_prata.swf"
+        },
+        {
+            "id": "telao_glow",
+            "src": "assets/images/telao_glow.swf"
+        },
+        {
+            "id": "arlindo_balao_fala_inicial",
+            "src": "assets/images/arlindo_balao_fala_inicial.swf"
+        },
+        {
+            "id": "loc_slide_02",
+            "src": "assets/sounds/loc_slide_02.mp3"
+        },
+        {
+            "id": "loc_slide_05",
+            "src": "assets/sounds/loc_slide_05.mp3"
+        },
+        {
+            "id": "loc_slide_06",
+            "src": "assets/sounds/loc_slide_06.mp3"
+        },
+        {
+            "id": "loc_slide_08",
+            "src": "assets/sounds/loc_slide_08.mp3"
+        },
+        {
+            "id": "loc_slide_09",
+            "src": "assets/sounds/loc_slide_09.mp3"
+        },
+        {
+            "id": "loc_slide_11",
+            "src": "assets/sounds/loc_slide_11.mp3"
+        },
+        {
+            "id": "loc_slide_12",
+            "src": "assets/sounds/loc_slide_12.mp3"
+        },
+        {
+            "id": "loc_slide_13",
+            "src": "assets/sounds/loc_slide_13.mp3"
+        },
+        {
+            "id": "loc_slide_15",
+            "src": "assets/sounds/loc_slide_15.mp3"
+        },
+        {
+            "id": "loc_slide_16",
+            "src": "assets/sounds/loc_slide_16.mp3"
+        },
+        {
+            "id": "loc_slide_17",
+            "src": "assets/sounds/loc_slide_17.mp3"
+        },
+        {
+            "id": "loc_slide_19",
+            "src": "assets/sounds/loc_slide_19.mp3"
+        },
+        {
+            "id": "loc_slide_20",
+            "src": "assets/sounds/loc_slide_20.mp3"
+        },
+        {
+            "id": "loc_slide_22",
+            "src": "assets/sounds/loc_slide_22.mp3"
+        },
+        {
+            "id": "loc_slide_24",
+            "src": "assets/sounds/loc_slide_24.mp3"
+        },
+        {
+            "id": "loc_slide_28",
+            "src": "assets/sounds/loc_slide_28.mp3"
+        },
+        {
+            "id": "bt_over_sound",
+            "src": "assets/sounds/bt_over_sound.mp3"
+        },
+        {
+            "id": "bt_down_sound",
+            "src": "assets/sounds/bt_down_sound.mp3"
+        },
+        {
+            "id": "connect_sound",
+            "src": "assets/sounds/connect_sound.mp3"
+        },
+        {
+            "id": "tutorial_bt",
+            "src": "assets/images/tutorial_bt.swf"
+        },
+        {
+            "id": "tutorial_next_bt_normal",
+            "src": "assets/images/tutorial/tutorial_next_bt_normal.swf"
+        },
+        {
+            "id": "tutorial_next_bt_over",
+            "src": "assets/images/tutorial/tutorial_next_bt_over.swf"
+        },
+        {
+            "id": "tutorial_next_bt_disabled",
+            "src": "assets/images/tutorial/tutorial_next_bt_disabled.swf"
+        },
+        {
+            "id": "tutorial_back_bt_normal",
+            "src": "assets/images/tutorial/tutorial_back_bt_normal.swf"
+        },
+        {
+            "id": "tutorial_back_bt_over",
+            "src": "assets/images/tutorial/tutorial_back_bt_over.swf"
+        },
+        {
+            "id": "tutorial_back_bt_disabled",
+            "src": "assets/images/tutorial/tutorial_back_bt_disabled.swf"
+        },
+        {
+            "id": "tutorial_bg",
+            "src": "assets/images/tutorial/tutorial_bg.swf"
+        },
+        {
+            "id": "instructions_bt_normal",
+            "src": "assets/images/buttons/instructions_bt_normal.swf"
+        },
+        {
+            "id": "instructions_bt_pressed",
+            "src": "assets/images/buttons/instructions_bt_pressed.swf"
+        },
+        {
+            "id": "instructions_bt_over",
+            "src": "assets/images/buttons/instructions_bt_over.swf"
+        },
+        {
+            "id": "instructions_bt_disabled",
+            "src": "assets/images/buttons/instructions_bt_disabled.swf"
+        },
+        {
+            "id": "instructions_text",
+            "src": "assets/images/instructions_text.swf"
+        },
+        {
+            "id": "tutorial_screen_01",
+            "src": "assets/images/tutorial/tutorial_screen_01.swf"
+        },
+        {
+            "id": "tutorial_screen_02",
+            "src": "assets/images/tutorial/tutorial_screen_02.swf"
+        },
+        {
+            "id": "tutorial_screen_03",
+            "src": "assets/images/tutorial/tutorial_screen_03.swf"
+        },
+        {
+            "id": "tutorial_screen_04",
+            "src": "assets/images/tutorial/tutorial_screen_04.swf"
+        },
+        { 
+            "id": "tutorial_screen_05",
+            "src": "assets/images/tutorial/tutorial_screen_05.swf"
+        },
+        {
+            "id": "tutorial_screen_06",
+            "src": "assets/images/tutorial/tutorial_screen_06.swf"
+        },
+        {
+            "id": "enthusiastic_clapping",
+            "src": "assets/sounds/enthusiastic_clapping.mp3"
+        },
+        {
+            "id": "tutorial_img_slide_01",
+            "src": "assets/images/tutorial/tutorial_img_slide_01.swf"
+        },
+        {
+            "id": "tutorial_img_slide_02",
+            "src": "assets/images/tutorial/tutorial_img_slide_02.swf"
+        },
+        {
+            "id": "tutorial_img_slide_03",
+            "src": "assets/images/tutorial/tutorial_img_slide_03.swf"
+        },
+        {
+            "id": "tutorial_img_slide_04",
+            "src": "assets/images/tutorial/tutorial_img_slide_04.swf"
+        },
+        {
+            "id": "tutorial_img_slide_06",
+            "src": "assets/images/tutorial/tutorial_img_slide_06.swf"
+        },
+        {
+            "id": "tutorial_img_slide_08",
+            "src": "assets/images/tutorial/tutorial_img_slide_08.swf"
+        },
+        {
+            "id": "tut_connect_quiz_title_text",
+            "src": "assets/images/tutorial/quiz/tut_connect_quiz_title_text.swf"
+        },
+        {
+            "id": "tut_connect_quiz_text_box",
+            "src": "assets/images/tutorial/quiz/tut_connect_quiz_text_box.swf"
+        },
+        {
+            "id": "tut_connect_quiz_text_group_background",
+            "src": "assets/images/tutorial/quiz/tut_connect_quiz_text_group_background.swf"
+        },
+        {
+            "id": "tut_quiz_text_button_active",
+            "src": "assets/images/tutorial/quiz/tut_quiz_text_button_active.swf"
+        },
+        {
+            "id": "tut_quiz_text_button_normal",
+            "src": "assets/images/tutorial/quiz/tut_quiz_text_button_normal.swf"
+        },
+        {
+            "id": "tut_quiz_title_box",
+            "src": "assets/images/tutorial/quiz/tut_quiz_title_box.swf"
+        },
+        {
+            "id": "tut_quiz_background",
+            "src": "assets/images/tutorial/quiz/tut_quiz_background.swf"
+        },
+        {
+            "id": "musica_entrada",
+            "src": "assets/sounds/musica_entrada.mp3"
+        },
+        {
+            "id": "swish_1",
+            "src": "assets/sounds/swish_1.mp3"
+        },
+        {
+            "id": "swish_2",
+            "src": "assets/sounds/swish_2.mp3"
+        },
+        {
+            "id": "woosh",
+            "src": "assets/sounds/woosh.mp3"
+        },
+        {
+            "id": "car",
+            "src": "assets/sounds/car.mp3"
+        },
+        {
+            "id": "car_3",
+            "src": "assets/sounds/car_3.mp3"
+        },
+        {
+            "id": "car_3_2",
+            "src": "assets/sounds/car_3_2.mp3"
+        }
+    ]
+}

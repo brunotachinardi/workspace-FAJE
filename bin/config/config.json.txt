@@ -1,0 +1,3239 @@
+﻿{
+    "states": [
+        {
+            "type": "OrthogonalState",
+            "spec": {
+                "name": "Main",
+                "states": [
+                	{
+                		"type": "ComponentState",
+                        "spec": {
+                            "name": "layout",
+                            "transitions": [
+                            ],
+                            "components": [
+                                {
+                                    "name": "layout_group"
+                                }
+                            ]
+                        }
+                	},
+                    {
+                        "type": "ComplexState",
+                        "spec": {
+                            "defaultState": "tela_1",
+                            "startingState": "tela_1",
+                            "name": "GameScreens",
+                            "states": [
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_1",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_2",
+                                                "event": "next_button_1_click"
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "next_bt1"
+                                            },
+                                            {
+                                                "name": "anima_chamada"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_slide_01"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_2",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_tutorial_1",
+                                                "event": "tutorial_bt_click"
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "arlindo_frente_slide03"
+                                            },
+                                            {
+                                                "name": "balao_fala_arlindo"
+                                            },
+                                            {
+                                                "name": "scene_palco_escuro"
+                                            },
+                                            {
+                                                "name": "loc_slide_02"
+                                            },
+                                            {
+                                                "name": "tutorial_bt"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Arlindo",
+                                                        "feed": "slide_2"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_slide_02"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_tutorial_1",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_tutorial_2",
+                                                "event": "tutorial_next_bt_click"
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "tutorial_next_bt"
+                                            },
+                                            {
+                                                "name": "scene_palco_escuro"
+                                            },
+                                            {
+                                                "name": "tutorial_text"
+                                            },
+                                            {
+                                                "name": "tutorial_img_slide_01"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_tutorial_01"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Tutorial",
+                                                        "feed": "tutorial_slide_01"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_tutorial_2",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_tutorial_3",
+                                                "event": "tutorial_next_bt_click"
+                                            },
+                                            {
+                                                "to": "tela_tutorial_1",
+                                                "event": "tutorial_back_bt_click"
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "tutorial_back_bt"
+                                            },
+                                            {
+                                                "name": "tutorial_next_bt"
+                                            },
+                                            {
+                                                "name": "scene_palco_escuro"
+                                            },
+                                            {
+                                                "name": "tutorial_text"
+                                            },
+                                            {
+                                                "name": "tutorial_img_slide_02"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_tutorial_02"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Tutorial",
+                                                        "feed": "tutorial_slide_02"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_tutorial_3",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_tutorial_4",
+                                                "event": "tutorial_next_bt_click"
+                                            },
+                                            {
+                                                "to": "tela_tutorial_2",
+                                                "event": "tutorial_back_bt_click"
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "tutorial_back_bt"
+                                            },
+                                            {
+                                                "name": "tutorial_next_bt"
+                                            },
+                                            {
+                                                "name": "scene_palco_escuro"
+                                            },
+                                            {
+                                                "name": "tutorial_text"
+                                            },
+                                            {
+                                                "name": "tutorial_img_slide_03"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_tutorial_03"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Tutorial",
+                                                        "feed": "tutorial_slide_03"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_tutorial_4",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_tutorial_5",
+                                                "event": "tutorial_next_bt_click"
+                                            },
+                                            {
+                                                "to": "tela_tutorial_3",
+                                                "event": "tutorial_back_bt_click"
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "tutorial_back_bt"
+                                            },
+                                            {
+                                                "name": "tutorial_next_bt"
+                                            },
+                                            {
+                                                "name": "scene_palco_escuro"
+                                            },
+                                            {
+                                                "name": "tutorial_text"
+                                            },
+                                            {
+                                                "name": "tutorial_img_slide_04"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_tutorial_04"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Tutorial",
+                                                        "feed": "tutorial_slide_04"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_tutorial_5",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_tutorial_6",
+                                                "event": "QuizAnswered"
+                                            },
+                                            {
+                                                "to": "tela_tutorial_4",
+                                                "event": "tutorial_back_bt_click"
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "tutorial_back_bt"
+                                            },
+                                            {
+                                                "name": "scene_palco_escuro"
+                                            },
+                                            {
+                                                "name": "tutorial_text"
+                                            },
+                                            {
+                                                "name": "tut_quiz"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_tutorial_05"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Tutorial",
+                                                        "feed": "tutorial_slide_05"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetQuizByRandomFeed",
+                                                    "spec": {
+                                                        "target": "tut_quiz",
+                                                        "maxLevel": 5,
+                                                        "category": "TutorialQuiz"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_tutorial_6",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_tutorial_7",
+                                                "event": "tutorial_next_bt_click"
+                                            },
+                                            {
+                                                "to": "tela_tutorial_5",
+                                                "event": "tutorial_back_bt_click"
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "tutorial_back_bt"
+                                            },
+                                            {
+                                                "name": "tutorial_next_bt"
+                                            },
+                                            {
+                                                "name": "scene_palco_escuro"
+                                            },
+                                            {
+                                                "name": "tutorial_text"
+                                            },
+                                            {
+                                                "name": "tutorial_img_slide_06"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_tutorial_06"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Tutorial",
+                                                        "feed": "tutorial_slide_06"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_tutorial_7",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_tutorial_8",
+                                                "event": "QuizAnswered"
+                                            },
+                                            {
+                                                "to": "tela_tutorial_6",
+                                                "event": "tutorial_back_bt_click"
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "tutorial_back_bt"
+                                            },
+                                            {
+                                                "name": "scene_palco_escuro"
+                                            },
+                                            {
+                                                "name": "tutorial_text"
+                                            },
+                                            {
+                                                "name": "tut_connect_quiz"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_tutorial_07"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Tutorial",
+                                                        "feed": "tutorial_slide_07"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetQuizByRandomFeed",
+                                                    "spec": {
+                                                        "target": "tut_connect_quiz",
+                                                        "maxLevel": 5,
+                                                        "category": "TutorialArraste"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_tutorial_8",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_tutorial_9",
+                                                "event": "tutorial_next_bt_click"
+                                            },
+                                            {
+                                                "to": "tela_tutorial_7",
+                                                "event": "tutorial_back_bt_click"
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "tutorial_back_bt"
+                                            },
+                                            {
+                                                "name": "tutorial_next_bt"
+                                            },
+                                            {
+                                                "name": "scene_palco_escuro"
+                                            },
+                                            {
+                                                "name": "tutorial_text"
+                                            },
+                                            {
+                                                "name": "tutorial_img_slide_08"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_tutorial_08"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Tutorial",
+                                                        "feed": "tutorial_slide_08"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_tutorial_9",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_4",
+                                                "event": "next_button_1_click"
+                                            },
+                                            {
+                                                "to": "tela_tutorial_8",
+                                                "event": "tutorial_back_bt_click"
+                                            },
+                                            {
+                                                "to": "tela_tutorial_1",
+                                                "event": "restart_bt_click"
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "next_bt1"
+                                            },
+                                            {
+                                                "name": "tutorial_back_bt"
+                                            },
+                                            {
+                                                "name": "scene_palco_escuro"
+                                            },
+                                            {
+                                                "name": "tutorial_final_text"
+                                            },
+                                            {
+                                                "name": "restart_bt"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_tutorial_09"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Tutorial",
+                                                        "feed": "tutorial_slide_09"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_4",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_5",
+                                                "event": "initial_animation_end"
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "initial_animation"
+                                            },
+                                            {
+                                                "name": "musica_entrada"
+                                            }
+                                            
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_slide_04"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_5",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_6",
+                                                "event": "next_button_1_click"
+                                            },
+                                            {
+                                                "to": "tela_29",
+                                                "variable": {
+                                                    "name": "Time",
+                                                    "operation": "==",
+                                                    "value": 0
+                                                }
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "stage_1_group"
+                                            },
+                                            {
+                                                "name": "loc_slide_05"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "PlayTimer",
+                                                    "spec": {
+                                                        "name": "GameTimer"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Arlindo",
+                                                        "feed": "slide_5"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "ResetQuiz",
+                                                    "spec": {}
+                                                },
+                                                {
+                                                    "command": "SetVariableToMax",
+                                                    "spec": {
+                                                        "name": "Time"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_slide_05"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_6",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_7",
+                                                "event": "telao_button_click"
+                                            },
+                                            {
+                                                "to": "tela_29",
+                                                "variable": {
+                                                    "name": "Time",
+                                                    "operation": "==",
+                                                    "value": 0
+                                                }
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "stage_2_group"
+                                            },
+                                            {
+                                                "name": "btn_telao_alinhando"
+                                            },
+                                            {
+                                                "name": "loc_slide_06"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Arlindo",
+                                                        "feed": "slide_6"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_slide_06"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetVariable",
+                                                    "spec": {
+                                                        "name": "QuestionsAnsweredThisState",
+                                                        "value": 0
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_7",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_7",
+                                                "event": "QuizAnswered",
+                                                "variable": {
+                                                    "name": "QuestionsAnsweredThisState",
+                                                    "operation": "<",
+                                                    "value": 3
+                                                }
+                                            },
+                                            {
+                                                "to": "tela_8",
+                                                "event": "QuizAnswered",
+                                                "variable": {
+                                                    "name": "QuestionsAnsweredThisState",
+                                                    "operation": ">=",
+                                                    "value": 3
+                                                }
+                                            },
+                                            {
+                                                "to": "tela_29",
+                                                "variable": {
+                                                    "name": "Time",
+                                                    "operation": "==",
+                                                    "value": 0
+                                                }
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "quiz_group"
+                                            },
+                                            {
+                                                "name": "quiz_slide_07"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetQuizByRandomFeed",
+                                                    "spec": {
+                                                        "target": "quiz_slide_07",
+                                                        "maxLevel": 5,
+                                                        "category": "Institucional"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_slide_07"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_8",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_9",
+                                                "event": "next_button_1_click"
+                                            },
+                                            {
+                                                "to": "tela_29",
+                                                "variable": {
+                                                    "name": "Time",
+                                                    "operation": "==",
+                                                    "value": 0
+                                                }
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "stage_3_group"
+                                            },
+                                            {
+                                                "name": "loc_slide_08"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Arlindo",
+                                                        "feed": "slide_8"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_slide_08"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetVariable",
+                                                    "spec": {
+                                                        "name": "QuestionsAnsweredThisState",
+                                                        "value": 0
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_9",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_10",
+                                                "event": "telao_button_click"
+                                            },
+                                            {
+                                                "to": "tela_29",
+                                                "variable": {
+                                                    "name": "Time",
+                                                    "operation": "==",
+                                                    "value": 0
+                                                }
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "stage_2_group"
+                                            },
+                                            {
+                                                "name": "btn_telao_auto_teste"
+                                            },
+                                            {
+                                                "name": "loc_slide_09"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Arlindo",
+                                                        "feed": "slide_9"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_slide_09"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_10",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_10",
+                                                "event": "QuizAnswered",
+                                                "variable": {
+                                                    "name": "QuestionsAnsweredThisState",
+                                                    "operation": "<",
+                                                    "value": 4
+                                                }
+                                            },
+                                            {
+                                                "to": "tela_11",
+                                                "event": "QuizAnswered",
+                                                "variable": {
+                                                    "name": "QuestionsAnsweredThisState",
+                                                    "operation": ">=",
+                                                    "value": 4
+                                                }
+                                            },
+                                            {
+                                                "to": "tela_29",
+                                                "variable": {
+                                                    "name": "Time",
+                                                    "operation": "==",
+                                                    "value": 0
+                                                }
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "quiz_group"
+                                            },
+                                            {
+                                                "name": "quiz_slide_10"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetQuizByRandomFeed",
+                                                    "spec": {
+                                                        "target": "quiz_slide_10",
+                                                        "maxLevel": 5,
+                                                        "category": "ITO"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_slide_10"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_11",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_12",
+                                                "event": "next_button_1_click"
+                                            },
+                                            {
+                                                "to": "tela_29",
+                                                "variable": {
+                                                    "name": "Time",
+                                                    "operation": "==",
+                                                    "value": 0
+                                                }
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "stage_3_group"
+                                            },
+                                            {
+                                                "name": "loc_slide_11"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Arlindo",
+                                                        "feed": "slide_11"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_slide_11"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetVariable",
+                                                    "spec": {
+                                                        "name": "QuestionsAnsweredThisState",
+                                                        "value": 0
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_12",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_13",
+                                                "event": "next_button_1_click"
+                                            },
+                                            {
+                                                "to": "tela_13",
+                                                "event": "comercial_animation_end"
+                                            },
+                                            {
+                                                "to": "tela_29",
+                                                "variable": {
+                                                    "name": "Time",
+                                                    "operation": "==",
+                                                    "value": 0
+                                                }
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "comercial_animation"
+                                            },
+                                            {
+                                                "name": "next_bt1"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "StopTimer",
+                                                    "spec": {
+                                                        "name": "GameTimer"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_slide_12"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_13",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_14",
+                                                "event": "telao_button_click"
+                                            },
+                                            {
+                                                "to": "tela_29",
+                                                "variable": {
+                                                    "name": "Time",
+                                                    "operation": "==",
+                                                    "value": 0
+                                                }
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "stage_2_group"
+                                            },
+                                            {
+                                                "name": "btn_telao_auto_teste"
+                                            },
+                                            {
+                                                "name": "loc_slide_13"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Arlindo",
+                                                        "feed": "slide_13"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "PlayTimer",
+                                                    "spec": {
+                                                        "name": "GameTimer"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_slide_13"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_14",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_14",
+                                                "event": "QuizAnswered",
+                                                "variable": {
+                                                    "name": "QuestionsAnsweredThisState",
+                                                    "operation": "<",
+                                                    "value": 4
+                                                }
+                                            },
+                                            {
+                                                "to": "tela_15",
+                                                "event": "QuizAnswered",
+                                                "variable": {
+                                                    "name": "QuestionsAnsweredThisState",
+                                                    "operation": ">=",
+                                                    "value": 4
+                                                }
+                                            },
+                                            {
+                                                "to": "tela_29",
+                                                "variable": {
+                                                    "name": "Time",
+                                                    "operation": "==",
+                                                    "value": 0
+                                                }
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "quiz_group"
+                                            },
+                                            {
+                                                "name": "quiz_slide_14"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetQuizByRandomFeed",
+                                                    "spec": {
+                                                        "target": "quiz_slide_14",
+                                                        "maxLevel": 5,
+                                                        "category": "ITO"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_slide_14"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_15",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_16",
+                                                "event": "next_button_1_click"
+                                            },
+                                            {
+                                                "to": "tela_29",
+                                                "variable": {
+                                                    "name": "Time",
+                                                    "operation": "==",
+                                                    "value": 0
+                                                }
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "stage_3_group"
+                                            },
+                                            {
+                                                "name": "loc_slide_15"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Arlindo",
+                                                        "feed": "slide_15"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_slide_15"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetVariable",
+                                                    "spec": {
+                                                        "name": "QuestionsAnsweredThisState",
+                                                        "value": 0
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_16",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_17",
+                                                "event": "telao_button_click"
+                                            },
+                                            {
+                                                "to": "tela_29",
+                                                "variable": {
+                                                    "name": "Time",
+                                                    "operation": "==",
+                                                    "value": 0
+                                                }
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "stage_2_group"
+                                            },
+                                            {
+                                                "name": "btn_telao_inspecao"
+                                            },
+                                            {
+                                                "name": "loc_slide_16"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Arlindo",
+                                                        "feed": "slide_16"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_slide_16"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_17",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_18",
+                                                "event": "next_button_1_click"
+                                            },
+                                            {
+                                                "to": "tela_29",
+                                                "variable": {
+                                                    "name": "Time",
+                                                    "operation": "==",
+                                                    "value": 0
+                                                }
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "cenario_reporter_bg"
+                                            },
+                                            {
+                                                "name": "next_bt1"
+                                            },
+                                            {
+                                                "name": "arlindo_balao_fala_invertido"
+                                            },
+                                            {
+                                                "name": "loc_slide_17"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Arlindo",
+                                                        "feed": "slide_17"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_slide_17"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_18",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_18",
+                                                "event": "QuizAnswered",
+                                                "variable": {
+                                                    "name": "QuestionsAnsweredThisState",
+                                                    "operation": "<",
+                                                    "value": 2
+                                                }
+                                            },
+                                            {
+                                                "to": "tela_19",
+                                                "event": "QuizAnswered",
+                                                "variable": {
+                                                    "name": "QuestionsAnsweredThisState",
+                                                    "operation": ">=",
+                                                    "value": 2
+                                                }
+                                            },
+                                            {
+                                                "to": "tela_29",
+                                                "variable": {
+                                                    "name": "Time",
+                                                    "operation": "==",
+                                                    "value": 0
+                                                }
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "quiz_group"
+                                            },
+                                            {
+                                                "name": "quiz_slide_18"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetQuizByRandomFeed",
+                                                    "spec": {
+                                                        "target": "quiz_slide_18",
+                                                        "maxLevel": 5,
+                                                        "category": "Institucional"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_slide_18"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_19",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_20",
+                                                "event": "next_button_1_click"
+                                            },
+                                            {
+                                                "to": "tela_29",
+                                                "variable": {
+                                                    "name": "Time",
+                                                    "operation": "==",
+                                                    "value": 0
+                                                }
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "cenario_reporter_bg"
+                                            },
+                                            {
+                                                "name": "next_bt1"
+                                            },
+                                            {
+                                                "name": "arlindo_balao_fala_invertido"
+                                            },
+                                            {
+                                                "name": "loc_slide_19"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Arlindo",
+                                                        "feed": "slide_19"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_slide_19"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetVariable",
+                                                    "spec": {
+                                                        "name": "QuestionsAnsweredThisState",
+                                                        "value": 0
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_20",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_21",
+                                                "event": "next_button_1_click"
+                                            },
+                                            {
+                                                "to": "tela_29",
+                                                "variable": {
+                                                    "name": "Time",
+                                                    "operation": "==",
+                                                    "value": 0
+                                                }
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "stage_3_group"
+                                            },
+                                            {
+                                                "name": "loc_slide_20"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Arlindo",
+                                                        "feed": "slide_20"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_slide_20"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_21",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_22",
+                                                "event": "desafio_animation_end"
+                                            },
+                                            {
+                                                "to": "tela_29",
+                                                "variable": {
+                                                    "name": "Time",
+                                                    "operation": "==",
+                                                    "value": 0
+                                                }
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "desafio_animation"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "StopTimer",
+                                                    "spec": {
+                                                        "name": "GameTimer"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_slide_21"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_22",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_23",
+                                                "event": "next_button_1_click"
+                                            },
+                                            {
+                                                "to": "tela_29",
+                                                "variable": {
+                                                    "name": "Time",
+                                                    "operation": "==",
+                                                    "value": 0
+                                                }
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "stage_3_group"
+                                            },
+                                            {
+                                                "name": "loc_slide_22"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Arlindo",
+                                                        "feed": "slide_22"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "PlayTimer",
+                                                    "spec": {
+                                                        "name": "GameTimer"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_slide_22"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_23",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_23",
+                                                "event": "QuizAnswered",
+                                                "variable": {
+                                                    "name": "QuestionsAnsweredThisState",
+                                                    "operation": "<",
+                                                    "value": 4
+                                                }
+                                            },
+                                            {
+                                                "to": "tela_24",
+                                                "event": "QuizAnswered",
+                                                "variable": {
+                                                    "name": "QuestionsAnsweredThisState",
+                                                    "operation": ">=",
+                                                    "value": 4
+                                                }
+                                            },
+                                            {
+                                                "to": "tela_29",
+                                                "variable": {
+                                                    "name": "Time",
+                                                    "operation": "==",
+                                                    "value": 0
+                                                }
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "connect_quiz"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetQuizByRandomFeed",
+                                                    "spec": {
+                                                        "target": "connect_quiz",
+                                                        "maxLevel": 5,
+                                                        "category": "Desafio"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_slide_23"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_24",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_25",
+                                                "event": "next_button_1_click",
+                                                "variable": {
+                                                    "name": "Points",
+                                                    "operation": ">=",
+                                                    "value": 200
+                                                }
+                                            },
+                                            {
+                                                "to": "tela_27",
+                                                "event": "next_button_1_click",
+                                                "variable": {
+                                                    "name": "Points",
+                                                    "operation": "<",
+                                                    "value": 200
+                                                }
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "stage_3_group"
+                                            },
+                                            {
+                                                "name": "loc_slide_24"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Arlindo",
+                                                        "feed": "slide_24"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "StopTimer",
+                                                    "spec": {
+                                                        "name": "GameTimer"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_slide_24"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetVariable",
+                                                    "spec": {
+                                                        "name": "QuestionsAnsweredThisState",
+                                                        "value": 0
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_25",
+                                        "transitions": [
+                                            {
+                                                "to": "tela_28",
+                                                "event": "next_button_1_click"
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "sucess_group"
+                                            },
+                                            {
+                                            	"name": "enthusiastic_clapping"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Arlindo",
+                                                        "feed": "slide_25"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_slide_25"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_27",
+                                        "transitions": [
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "fail_group"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Arlindo",
+                                                        "feed": "slide_27"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_slide_27"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetFailed",
+                                                    "spec": {
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_28",
+                                        "transitions": [
+                                        ],
+                                        "components": [
+                                            {
+						                        "name": "arlindo_balao_fala_invertido"
+						                    },
+						                    {
+						                        "name": "arlindo_frente_invertido",
+						                        "displayProperties": "arlindo_frente_stage_3"
+						                    },
+						                    {
+						                        "name": "palco_telao_alinhando"
+						                    },
+                                            {
+                                                "name": "chuva_de_prata"
+                                            },
+                                            {
+                                                "name": "loc_slide_28"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Arlindo",
+                                                        "feed": "slide_28"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_slide_28"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetCompleted",
+                                                    "spec": {
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "tela_29",
+                                        "transitions": [
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "fail_group"
+                                            }
+                                        ],
+                                        "events": {
+                                            "enter": [
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Arlindo",
+                                                        "feed": "slide_29"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "StopTimer",
+                                                    "spec": {
+                                                        "name": "GameTimer"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetTextByFeed",
+                                                    "spec": {
+                                                        "variable": "Instructions",
+                                                        "feed": "instructions_slide_29"
+                                                    }
+                                                },
+                                                {
+                                                    "command": "SetFailed",
+                                                    "spec": {
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "ComplexState",
+                        "spec": {
+                        	"saveStatusInScorm" : false,
+                        	"saveScormOnStateChange" : false,
+                            "defaultState": "instruction_off",
+                            "startingState": "instruction_off",
+                            "name": "GameScreens",
+                            "states": [
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "instruction_off",
+                                        "transitions": [
+                                            {
+                                                "to": "instruction_on",
+                                                "event": "toggle_instructions"
+                                            }
+                                        ],
+                                        "components": [
+                                        	{
+                                                "name": "instructions_bt"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "type": "ComponentState",
+                                    "spec": {
+                                        "name": "instruction_on",
+                                        "transitions": [
+                                            {
+                                                "to": "instruction_off",
+                                                "event": "toggle_instructions"
+                                            }
+                                        ],
+                                        "components": [
+                                            {
+                                                "name": "instructions_text"
+                                            },
+                                            {
+                                                "name": "instructions_bt"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "components": [
+        {
+            "type": "Sound",
+            "spec": {
+                "name": "loc_slide_02",
+                "sound": "loc_slide_02",
+                "behaviour": "weak",
+                "stopMCOnStop": "anima_boca"
+            }
+        },
+        {
+            "type": "Sound",
+            "spec": {
+                "name": "loc_slide_05",
+                "sound": "loc_slide_05",
+                "behaviour": "weak",
+                "stopMCOnStop": "anima_boca"
+            }
+        },
+        {
+            "type": "Sound",
+            "spec": {
+                "name": "loc_slide_06",
+                "sound": "loc_slide_06",
+                "behaviour": "weak",
+                "stopMCOnStop": "anima_boca"
+            }
+        },
+        {
+            "type": "Sound",
+            "spec": {
+                "name": "loc_slide_08",
+                "sound": "loc_slide_08",
+                "behaviour": "weak",
+                "stopMCOnStop": "anima_boca"
+            }
+        },
+        {
+            "type": "Sound",
+            "spec": {
+                "name": "loc_slide_09",
+                "sound": "loc_slide_09",
+                "behaviour": "weak",
+                "stopMCOnStop": "anima_boca"
+            }
+        },
+        {
+            "type": "Sound",
+            "spec": {
+                "name": "loc_slide_11",
+                "sound": "loc_slide_11",
+                "behaviour": "weak",
+                "stopMCOnStop": "anima_boca"
+            }
+        },
+        {
+            "type": "Sound",
+            "spec": {
+                "name": "loc_slide_13",
+                "sound": "loc_slide_13",
+                "behaviour": "weak",
+                "stopMCOnStop": "anima_boca"
+            }
+        },
+        {
+            "type": "Sound",
+            "spec": {
+                "name": "loc_slide_15",
+                "sound": "loc_slide_15",
+                "behaviour": "weak",
+                "stopMCOnStop": "anima_boca"
+            }
+        },
+        {
+            "type": "Sound",
+            "spec": {
+                "name": "loc_slide_16",
+                "sound": "loc_slide_16",
+                "behaviour": "weak",
+                "stopMCOnStop": "anima_boca"
+            }
+        },
+        {
+            "type": "Sound",
+            "spec": {
+                "name": "loc_slide_17",
+                "sound": "loc_slide_17",
+                "behaviour": "weak",
+                "stopMCOnStop": "anima_boca"
+            }
+        },
+        {
+            "type": "Sound",
+            "spec": {
+                "name": "loc_slide_19",
+                "sound": "loc_slide_19",
+                "behaviour": "weak",
+                "stopMCOnStop": "anima_boca"
+            }
+        },
+        {
+            "type": "Sound",
+            "spec": {
+                "name": "loc_slide_20",
+                "sound": "loc_slide_20",
+                "behaviour": "weak",
+                "stopMCOnStop": "anima_boca"
+            }
+        },
+        {
+            "type": "Sound",
+            "spec": {
+                "name": "loc_slide_22",
+                "sound": "loc_slide_22",
+                "behaviour": "weak",
+                "stopMCOnStop": "anima_boca"
+            }
+        },
+        {
+            "type": "Sound",
+            "spec": {
+                "name": "loc_slide_24",
+                "sound": "loc_slide_24",
+                "behaviour": "weak",
+                "stopMCOnStop": "anima_boca"
+            }
+        },
+        {
+            "type": "Sound",
+            "spec": {
+                "name": "loc_slide_28",
+                "sound": "loc_slide_28",
+                "behaviour": "weak",
+                "stopMCOnStop": "anima_boca"
+            }
+        },
+        {
+            "type": "Sound",
+            "spec": {
+                "name": "enthusiastic_clapping",
+                "sound": "enthusiastic_clapping",
+                "behaviour": "weak"
+            }
+        },
+        {
+            "type": "Sound",
+            "spec": {
+                "name": "musica_entrada",
+                "sound": "musica_entrada",
+                "volume": 0.75,
+                "behaviour": "weak"
+            }
+        },
+        {
+            "type": "Animation",
+            "spec": {
+                "name": "initial_animation",
+                "image": "initial_animation",
+                "defaultDisplayProperties": "initial_animation_dp",
+                "behaviour": "strong",
+                "end": "initial_animation_end"
+            }
+        },
+        {
+            "type": "Animation",
+            "spec": {
+                "name": "comercial_animation",
+                "image": "comercial_animation",
+                "defaultDisplayProperties": "initial_animation_dp",
+                "behaviour": "weak",
+                "end": "comercial_animation_end",
+                "fps" : 24,
+                "sounds" : [
+                	{
+            			"sound" : "loc_slide_12",
+            			"name" : "slide_12_animation_sound",
+                		"frame" : 148,
+                		"stopMCOnStop" : "boca"
+                	},
+                	{
+            			"sound" : "woosh",
+            			"name" : "slide_12_animation_sound_woosh",
+                		"frame" : 2
+                	},
+                	{
+            			"sound" : "swish_1",
+            			"name" : "slide_12_animation_sound_swish_1",
+                		"frame" : 56
+                	},
+                	{
+            			"sound" : "swish_2",
+            			"name" : "slide_12_animation_sound_swish_2",
+                		"frame" : 64
+                	}
+                ]
+            }
+        },
+        {
+            "type": "Animation",
+            "spec": {
+                "name": "desafio_animation",
+                "image": "desafio_animation",
+                "defaultDisplayProperties": "initial_animation_dp",
+                "behaviour": "weak",
+                "end": "desafio_animation_end",
+                "fps" : 24,
+                "sounds" : [
+                	{
+            			"sound" : "car",
+            			"name" : "desafio_animation_sound_car",
+                		"frame" : 2
+                	},
+                	{
+            			"sound" : "car",
+            			"name" : "desafio_animation_sound_car_2",
+                		"frame" : 18
+                	},
+                	{
+            			"sound" : "car_3",
+            			"name" : "desafio_animation_sound_car_3",
+                		"frame" : 50
+                	},
+                	{
+            			"sound" : "car_3_2",
+            			"name" : "desafio_animation_sound_car_3_2",
+                		"frame" : 50
+                	}
+                ]
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "bottom_layer",
+                "defaultDisplayProperties": "bottom_layer_dp",
+                "image": "layout_bottom"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "cenario_reporter_bg",
+                "image": "cenario_reporter_bg",
+                "defaultDisplayProperties": "background_dp"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "layout_graphic",
+                "defaultDisplayProperties": "layout_dp",
+                "image": "layout_barra"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "box_iluminado",
+                "image": "box_iluminado_slide03"
+            }
+        },
+        {
+            "type": "TrackerBar",
+            "spec": {
+                "name": "player_progress_bar",
+                "defaultDisplayProperties": "player_progress_bar_dp",
+                "bg": "carro_bg",
+                "bar": "carro_barra",
+                "target": "Points",
+                "defaultMaximum": 250
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "palco_bg_1",
+                "defaultDisplayProperties": "background_dp",
+                "image": "novo_palco"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "telao_glow",
+                "defaultDisplayProperties": "telao_glow_dp",
+                "image": "telao_glow"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "chuva_de_prata",
+                "defaultDisplayProperties": "chuva_de_prata_dp",
+                "image": "chuva_de_prata"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "palco_telao_alinhando",
+                "defaultDisplayProperties": "palco_bg_stage_1",
+                "image": "palco_telao_alinhando"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "scene_palco_escuro",
+                "image": "scene_palco_slide03",
+                "defaultDisplayProperties": "background_dp"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "arlindo_frente_slide03",
+                "image": "arlindo_frente_slide03",
+                "defaultDisplayProperties": "arlindo_frente_slide_03_dp"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "arlindo_frente",
+                "image": "arlindo_frente",
+                "behaviour": "weak",
+                "defaultDisplayProperties": "arlindo_frente_dp"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "arlindo_frente_invertido",
+                "image": "arlindo_frente_invertido",
+                "behaviour": "weak",
+                "defaultDisplayProperties": "arlindo_frente_dp"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "tutorial_bg",
+                "image": "tutorial_bg",
+                "behaviour": "weak",
+                "defaultDisplayProperties": "tutorial_bg_dp"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "tutorial_screen_01",
+                "image": "tutorial_screen_01",
+                "behaviour": "weak",
+                "defaultDisplayProperties": "tutorial_screen_dp"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "tutorial_screen_02",
+                "image": "tutorial_screen_02",
+                "behaviour": "weak",
+                "defaultDisplayProperties": "tutorial_screen_dp"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "tutorial_screen_03",
+                "image": "tutorial_screen_03",
+                "behaviour": "weak",
+                "defaultDisplayProperties": "tutorial_screen_dp"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "tutorial_screen_04",
+                "image": "tutorial_screen_04",
+                "behaviour": "weak",
+                "defaultDisplayProperties": "tutorial_screen_dp"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "tutorial_screen_05",
+                "image": "tutorial_screen_05",
+                "behaviour": "weak",
+                "defaultDisplayProperties": "tutorial_screen_dp"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "tutorial_screen_06",
+                "image": "tutorial_screen_06",
+                "behaviour": "weak",
+                "defaultDisplayProperties": "tutorial_screen_dp"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "tutorial_img_slide_01",
+                "image": "tutorial_img_slide_01",
+                "behaviour": "weak",
+                "defaultDisplayProperties": "tutorial_img_dp"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "tutorial_img_slide_02",
+                "image": "tutorial_img_slide_02",
+                "behaviour": "weak",
+                "defaultDisplayProperties": "tutorial_img_dp"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "tutorial_img_slide_03",
+                "image": "tutorial_img_slide_03",
+                "behaviour": "weak",
+                "defaultDisplayProperties": "tutorial_img_dp"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "tutorial_img_slide_04",
+                "image": "tutorial_img_slide_04",
+                "behaviour": "weak",
+                "defaultDisplayProperties": "tutorial_img_dp"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "tutorial_img_slide_06",
+                "image": "tutorial_img_slide_06",
+                "behaviour": "weak",
+                "defaultDisplayProperties": "tutorial_img_dp"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "tutorial_img_slide_08",
+                "image": "tutorial_img_slide_08",
+                "behaviour": "weak",
+                "defaultDisplayProperties": "tutorial_img_dp"
+            }
+        },
+        {
+            "type": "Animation",
+            "spec": {
+                "name": "anima_chamada",
+                "image": "anima_chamada",
+                "fps" : 6
+            }
+        },
+        {
+            "type": "TrackerText",
+            "spec": {
+                "name": "points_text",
+                "defaultDisplayProperties": "points_text_dp",
+                "textProperties": "points_text_tp",
+                "target": "Points",
+                "sufix": " Pontos",
+                "format": "comma"
+            }
+        },
+        {
+            "type": "TrackerText",
+            "spec": {
+                "name": "step_text",
+                "defaultDisplayProperties": "step_text_dp",
+                "textProperties": "step_text_tp",
+                "target": "Step",
+                "prefix": "Etapa ",
+                "format": "comma"
+            }
+        },
+        {
+            "type": "TrackerText",
+            "spec": {
+                "name": "time_text",
+                "defaultDisplayProperties": "time_text_dp",
+                "textProperties": "time_text_tp",
+                "target": "Time",
+                "prefix": "Tempo ",
+                "format": "time_minutes"
+            }
+        },
+        {
+            "type": "Button",
+            "spec": {
+                "name": "next_bt1",
+                "defaultDisplayProperties": "next_bt_1_dp",
+                "normal": "btn_next_1_normal",
+                "overSound": "bt_over_sound",
+                "pressedSound": "bt_down_sound",
+                "over": "btn_next_1_over",
+                "pressed": "btn_next_1_pressed",
+                "message": "next_button_1_click"
+            }
+        },
+        {
+            "type": "Button",
+            "spec": {
+                "name": "btn_telao_auto_teste",
+                "behaviour": "weak",
+                "normal": "btn_telao_auto_teste_normal",
+                "overSound": "bt_over_sound",
+                "pressedSound": "bt_down_sound",
+                "defaultDisplayProperties": "auto_teste_dp",
+                "message": "telao_button_click"
+            }
+        },
+        {
+            "type": "Button",
+            "spec": {
+                "name": "btn_telao_inspecao",
+                "behaviour": "weak",
+                "normal": "btn_telao_inspecao_normal",
+                "overSound": "bt_over_sound",
+                "pressedSound": "bt_down_sound",
+                "defaultDisplayProperties": "auto_teste_dp",
+                "message": "telao_button_click"
+            }
+        },
+        {
+            "type": "Button",
+            "spec": {
+                "name": "btn_telao_alinhando",
+                "overSound": "bt_over_sound",
+                "pressedSound": "bt_down_sound",
+                "normal": "btn_telao_alinhando_normal",
+                "message": "telao_button_click"
+            }
+        },
+        {
+            "type": "Button",
+            "spec": {
+                "name": "next_bt2",
+                "normal": "btn_avancar2_habilitado",
+                "overSound": "bt_over_sound",
+                "pressedSound": "bt_down_sound",
+                "over": "btn_avancar2_over",
+                "clicked": "btn_avancar2_pressed"
+            }
+        },
+        {
+            "type": "Button",
+            "spec": {
+                "name": "back_bt2",
+                "normal": "btn_voltar2_habilitado",
+                "overSound": "bt_over_sound",
+                "pressedSound": "bt_down_sound",
+                "over": "btn_voltar2_over",
+                "clicked": "btn_voltar2_pressed",
+                "message": "back_button_2_click"
+            }
+        },
+        {
+            "type": "Button",
+            "spec": {
+                "name": "restart_bt",
+                "defaultDisplayProperties": "restart_bt_dp",
+                "overSound": "bt_over_sound",
+                "pressedSound": "bt_down_sound",
+                "normal": "restart_bt",
+                "message": "restart_bt_click"
+            }
+        },
+        {
+            "type": "Button",
+            "spec": {
+                "name": "tutorial_bt",
+                "defaultDisplayProperties": "tutorial_bt_dp",
+                "overSound": "bt_over_sound",
+                "pressedSound": "bt_down_sound",
+                "normal": "tutorial_bt",
+                "message": "tutorial_bt_click"
+            }
+        },
+        {
+            "type": "Button",
+            "spec": {
+                "name": "tutorial_next_bt",
+                "defaultDisplayProperties": "tutorial_next_bt_dp",
+                "behaviour": "weak",
+                "pressedSound": "bt_down_sound",
+                "normal": "tutorial_next_bt_normal",
+                "disabled": "tutorial_next_bt_disabled",
+                "message": "tutorial_next_bt_click"
+            }
+        },
+        {
+            "type": "Button",
+            "spec": {
+                "name": "tutorial_back_bt",
+                "defaultDisplayProperties": "tutorial_back_bt_dp",
+                "behaviour": "weak",
+                "pressedSound": "bt_down_sound",
+                "normal": "tutorial_back_bt_normal",
+                "disabled": "tutorial_back_bt_disabled",
+                "message": "tutorial_back_bt_click"
+            }
+        },        
+        {
+            "type": "Button",
+            "spec": {
+                "name": "instructions_bt",
+                "defaultDisplayProperties": "instructions_bt_dp",
+                "behaviour": "strong",
+                "overSound": "bt_over_sound",
+                "pressedSound": "bt_down_sound",
+                "normal": "instructions_bt_normal",
+                "over": "instructions_bt_over",
+                "disabled": "instructions_bt_disabled",
+                "pressed": "instructions_bt_pressed",
+                "message": "toggle_instructions"
+            }
+        },
+        {
+            "type": "TextBox",
+            "spec": {
+                "name": "balao_fala_arlindo",
+                "text": "",
+                "behaviour": "weak",
+                "variable": "Arlindo",
+                "image": "arlindo_balao_fala",
+                "defaultDisplayProperties": "arlindo_balao_fala_dp",
+                "textProperties": "balao_fala_arlindo_tp"
+            }
+        },
+        {
+            "type": "TextBox",
+            "spec": {
+                "name": "arlindo_balao_fala_inicial",
+                "text": "",
+                "behaviour": "weak",
+                "variable": "Arlindo",
+                "image": "arlindo_balao_fala_inicial",
+                "defaultDisplayProperties": "arlindo_balao_fala_inicial_dp",
+                "textProperties": "arlindo_balao_fala_inicial_tp"
+            }
+        },
+        {
+            "type": "TextBox",
+            "spec": {
+                "name": "box_feed_positivo",
+                "text": "",
+                "behaviour": "weak",
+                "variable": "Arlindo",
+                "image": "box_feed_positivo",
+                "defaultDisplayProperties": "box_feed_positivo_dp",
+                "textProperties": "box_feed_positivo_tp"
+            }
+        },
+        {
+            "type": "TextBox",
+            "spec": {
+                "name": "box_feed_negativo",
+                "text": "",
+                "behaviour": "weak",
+                "variable": "Arlindo",
+                "image": "box_feed_negativo",
+                "defaultDisplayProperties": "box_feed_negativo_dp",
+                "textProperties": "box_feed_negativo_tp"
+            }
+        },
+        {
+            "type": "TextBox",
+            "spec": {
+                "name": "balao_fala_arlindo_2",
+                "text": "",
+                "behaviour": "weak",
+                "variable": "Arlindo",
+                "image": "arlindo_balao_fala_2",
+                "defaultDisplayProperties": "arlindo_balao_fala_2_dp",
+                "textProperties": "balao_fala_arlindo_2_tp"
+            }
+        },
+        {
+            "type": "TextBox",
+            "spec": {
+                "name": "arlindo_balao_fala_invertido",
+                "text": "",
+                "behaviour": "weak",
+                "variable": "Arlindo",
+                "image": "arlindo_balao_fala_invertido",
+                "defaultDisplayProperties": "arlindo_balao_fala_invertido_dp",
+                "textProperties": "arlindo_balao_fala_invertido_tp"
+            }
+        },
+        {
+            "type": "TextBox",
+            "spec": {
+                "name": "instructions_text",
+                "text": "Instructions text variable was not set, but this text should be big enough to test 93 chars.",
+                "behaviour": "persistent",
+                "variable": "Instructions",
+                "image": "instructions_text",
+                "defaultDisplayProperties": "instructions_text_dp",
+                "textProperties": "instructions_text_tp"
+            }
+        },
+        {
+            "type": "TextBox",
+            "spec": {
+                "name": "tutorial_text",
+                "text": "",
+                "behaviour": "weak",
+                "variable": "Tutorial",
+                "defaultDisplayProperties": "tutorial_text_dp",
+                "textProperties": "tutorial_text_tp"
+            }
+        },
+        {
+            "type": "TextBox",
+            "spec": {
+                "name": "tutorial_final_text",
+                "text": "",
+                "behaviour": "weak",
+                "variable": "Tutorial",
+                "defaultDisplayProperties": "tutorial_final_text_dp",
+                "textProperties": "tutorial_final_text_tp"
+            }
+        },
+        {
+            "type": "ComponentsContainer",
+            "spec": {
+                "name": "layout_group",
+                "components": [
+                    {
+                        "name": "points_text"
+                    },
+                    {
+                        "name": "layout_graphic"
+                    },
+                    {
+                        "name": "player_progress_bar"
+                    },
+                    {
+                        "name": "step_text"
+                    },
+                    {
+                        "name": "time_text"
+                    },
+                    {
+                        "name": "layout_background"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "ComponentsContainer",
+            "spec": {
+                "name": "stage_1_group",
+                "components": [
+                    {
+                        "name": "arlindo_balao_fala_inicial"
+                    },
+                    {
+                        "name": "next_bt1"
+                    },
+                    {
+                        "name": "initial_animation"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "ComponentsContainer",
+            "spec": {
+                "name": "stage_2_group",
+                "components": [
+                    {
+                        "name": "balao_fala_arlindo_2"
+                    },
+                    {
+                        "name": "arlindo_frente",
+                        "displayProperties": "arlindo_frente_stage_2"
+                    },
+                    {
+                        "name": "palco_telao_alinhando"
+                    },
+                    {
+                        "name": "telao_glow"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "ComponentsContainer",
+            "spec": {
+                "name": "stage_3_group",
+                "components": [
+                    {
+                        "name": "arlindo_balao_fala_invertido"
+                    },
+                    {
+                        "name": "arlindo_frente_invertido",
+                        "displayProperties": "arlindo_frente_stage_3"
+                    },
+                    {
+                        "name": "palco_telao_alinhando"
+                    },
+                    {
+                        "name": "next_bt1"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "ComponentsContainer",
+            "spec": {
+                "name": "sucess_group",
+                "components": [
+                    {
+                        "name": "next_bt1"
+                    },
+                    {
+                        "name": "box_feed_positivo"
+                    },
+                    {
+                        "name": "scene_palco_escuro"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "ComponentsContainer",
+            "spec": {
+                "name": "fail_group",
+                "components": [
+                    {
+                        "name": "box_feed_negativo"
+                    },
+                    {
+                        "name": "scene_palco_escuro"
+                    }
+                ]
+            }
+        }
+    ],
+    "displayProperties": [
+        {
+            "name": "default",
+            "x": 0,
+            "y": 0,
+            "depth": 0
+        },
+        {
+            "name": "layout_dp",
+            "x": 0,
+            "y": 0,
+            "depth": 1000
+        },
+        {
+            "name": "player_progress_bar_dp",
+            "x": 580,
+            "y": 42,
+            "depth": 1001
+        },
+        {
+            "name": "background_dp",
+            "x": 0,
+            "y": 0,
+            "depth": -1000
+        },
+        {
+            "name": "bottom_layer_dp",
+            "x": 0,
+            "y": 0,
+            "depth": -200000
+        },
+        {
+            "name": "points_text_dp",
+            "x": 703,
+            "y": 25,
+            "width": 75,
+            "height": 500,
+            "depth": 1002,
+            "alpha": 0.7
+        },
+        {
+            "name": "step_text_dp",
+            "x": 8,
+            "y": 113,
+            "width": 60,
+            "height": 500,
+            "depth": 1002,
+            "alpha": 0.7
+        },
+        {
+            "name": "time_text_dp",
+            "x": 700,
+            "y": 113,
+            "width": 60,
+            "height": 500,
+            "depth": 1002,
+            "alpha": 0.7
+        },
+        {
+            "name": "next_bt_1_dp",
+            "x": 725,
+            "y": 175,
+            "depth": 2000
+        },
+        {
+            "name": "text_box_dp",
+            "x": 300,
+            "y": 250,
+            "width": 200,
+            "height": 75,
+            "depth": 1002
+        },
+        {
+            "name": "text_dp_2",
+            "x": 300,
+            "y": 250,
+            "width": 200,
+            "height": 75,
+            "depth": 1002
+        },
+        {
+            "name": "arlindo_balao_fala_dp",
+            "x": 500,
+            "y": 235,
+            "depth": 1002
+        },
+        {
+            "name": "arlindo_balao_fala_2_dp",
+            "x": 450,
+            "y": 400,
+            "depth": 1002
+        },
+        {
+            "name": "initial_animation_dp",
+            "x": 0,
+            "y": 0,
+            "depth": -1000
+        },
+        {
+            "name": "arlindo_frente",
+            "x": 100,
+            "y": 100,
+            "depth": 500
+        },
+        {
+            "name": "arlindo_frente_slide_03_dp",
+            "depth": 500
+        },
+        {
+            "name": "arlindo_frente_stage_2",
+            "x": 75,
+            "y": 250,
+            "depth": 500
+        },
+        {
+            "name": "palco_bg_stage_1",
+            "x": -279.1,
+            "y": -302.25,
+            "depth": -1000
+        },
+        {
+            "name": "arlindo_balao_fala_invertido_dp",
+            "x": 150,
+            "y": 150,
+            "depth": 501
+        },
+        {
+            "name": "arlindo_frente_stage_3",
+            "x": 520,
+            "y": 220,
+            "depth": 500
+        },
+        {
+            "name": "auto_teste_dp",
+            "x": 292,
+            "y": 150
+        },
+        {
+            "name": "box_feed_negativo_dp",
+            "x": 365,
+            "y": 325
+        },
+        {
+            "name": "box_feed_positivo_dp",
+            "x": 375,
+            "y": 250
+        },
+        {
+            "name": "restart_bt_dp",
+            "x": 390,
+            "y": 490,
+            "depth": 9999999
+        },
+        {
+            "name": "chuva_de_prata_dp",
+            "depth": 999999
+        },
+        {
+            "name": "telao_glow_dp",
+            "depth": 1
+        },
+        {
+            "name": "arlindo_balao_fala_inicial_dp",
+            "x": 400,
+            "y": 250
+        },
+        {
+            "name": "tutorial_bt_dp",
+            "x": 725,
+            "y": 500,
+            "depth": 9999999
+        },
+        {
+            "name": "tutorial_next_bt_dp",
+            "x": 695,
+            "y": 470,
+            "depth": 9999999
+        },
+        {
+            "name": "tutorial_back_bt_dp",
+            "x": 645,
+            "y": 470,
+            "depth": 9999999
+        },
+        {
+            "name": "tutorial_bg_dp",
+            "x": 120,
+            "y": 110,
+            "depth": -999
+        },
+        {
+            "name": "tutorial_screen_dp",
+            "x": 120,
+            "y": 110,
+            "depth": 0
+        },
+        {
+            "name": "instructions_bt_dp",
+            "x": 740,
+            "y": 80,
+            "depth": 999999
+        },
+        {
+            "name": "instructions_text_dp",
+            "x": 380,
+            "y": 80,
+            "depth": 999998
+        },
+        {
+            "name": "tutorial_text_dp",
+            "x": 475,
+            "y": 160,
+            "width" : 290,
+            "height" : 320, 
+            "depth": 9999
+        },
+        {
+            "name": "tutorial_img_dp",
+            "x": 35,
+            "y": 160,
+            "depth": 9998
+        },
+        {
+            "name": "tutorial_final_text_dp",
+            "x": 110,
+            "y": 160,
+            "width" : 570,
+            "height" : 320, 
+            "depth": 9999
+        }
+    ],
+    "textProperties": [
+        {
+            "name": "points_text_tp",
+            "font": "EurostileRegular",
+            "align": "right",
+            "textColor": 5592456,
+            "size": 20
+        },
+        {
+            "name": "step_text_tp",
+            "font": "EurostileRegular",
+            "align": "center",
+            "textColor": 5592456,
+            "size": 18
+        },
+        {
+            "name": "time_text_tp",
+            "font": "EurostileRegular",
+            "align": "center",
+            "textColor": 5592456,
+            "size": 18
+        },
+        {
+            "name": "balao_fala_arlindo_tp",
+            "textColor": 1915233,
+            "font": "EurostileRegular",
+            "spacingX": 20,
+            "spacingY": 0,
+            "align": "center",
+            "verticalAlign": "center",
+            "size": 20,
+            "textOffsetX": -185,
+            "textOffsetY": -125
+        },
+        {
+            "name": "balao_fala_arlindo_2_tp",
+            "textColor": 1915233,
+            "font": "EurostileRegular",
+            "spacingX": 50,
+            "spacingY": 0,
+            "align": "center",
+            "verticalAlign": "center",
+            "size": 20,
+            "textOffsetX": -250,
+            "textOffsetY": -100
+        },
+        {
+            "name": "arlindo_balao_fala_invertido_tp",
+            "textColor": 1915233,
+            "font": "EurostileRegular",
+            "spacingX": 40,
+            "spacingY": 0,
+            "align": "center",
+            "verticalAlign": "center",
+            "size": 20,
+            "textOffsetX": -30,
+            "textOffsetY": -20
+        },
+        {
+            "name": "box_feed_negativo_tp",
+            "textColor": 16777215,
+            "font": "EurostileRegular",
+            "spacingX": 55,
+            "spacingY": 0,
+            "align": "center",
+            "verticalAlign": "center",
+            "size": 20,
+            "textOffsetX": -250,
+            "textOffsetY": -175,
+            "html" : true
+        },
+        {
+            "name": "box_feed_positivo_tp",
+            "textColor": 1915233,
+            "font": "EurostileRegular",
+            "spacingX": 80,
+            "spacingY": 0,
+            "align": "center",
+            "verticalAlign": "center",
+            "size": 20,
+            "textOffsetX": -275,
+            "textOffsetY": -150,
+            "html" : true
+        },
+        {
+            "name": "arlindo_balao_fala_inicial_tp",
+            "textColor": 1915233,
+            "font": "EurostileRegular",
+            "spacingX": 40,
+            "spacingY": 0,
+            "align": "center",
+            "verticalAlign": "center",
+            "size": 20,
+            "textOffsetX": -185,
+            "textOffsetY": -90
+        },
+        {
+            "name": "instructions_text_tp",
+            "textColor": 1915233,
+            "font": "EurostileRegular",
+            "spacingX": 30,
+            "spacingY": 0,
+            "align": "center",
+            "verticalAlign": "center",
+            "size": 15
+        },
+        {
+            "name": "tutorial_text_tp",
+            "textColor": 15658734,
+            "font": "EurostileRegular",
+            "align": "left",
+            "verticalAlign": "center",
+            "size": 16
+        },
+        {
+            "name": "tutorial_final_text_tp",
+            "textColor": 15658734,
+            "font": "EurostileBold",
+            "align": "center",
+            "verticalAlign": "center",
+            "bold" : true,
+            "size": 18,
+            "html" : true
+        }
+    ],
+    "variables": [
+        {
+            "name": "Step",
+            "start": 1,
+            "max": 3,
+            "min": 1
+        },
+        {
+            "name": "Points",
+            "start": 0,
+            "max": 250
+        },
+        {
+            "name": "Time",
+            "start": 2400,
+            "max": 2400
+        },
+        {
+            "name": "QuestionsAnswered",
+            "start": 0,
+            "max": 22
+        }
+    ],
+    "timers": [
+        {
+            "name": "GameTimer",
+            "variables": [
+                {
+                    "variable": "Time",
+                    "value": -1
+                }
+            ]
+        }
+    ],
+    "texts": {
+        "slide_2": "Parabéns! Você foi selecionado para me acompanhar no palco do programa. Está preparado? Mas antes de irmos ao estúdio, veja a breve explicação de como você deve jogar. Clique no botão \"Tutorial\", abaixo.",
+        "slide_5": "Sejam todos muito bem-vindos ao Show do Arlindo! Hoje com uma edição especial dedicada à Controlar. Você está preparado para ganhar o carro dos sonhos?",
+        "slide_6": "Para aquecer, vamos ao primeiro quadro chamado \"Alinhando Conhecimentos\", vamos ver se você está alinhado aos conceitos da Controlar. Clique no telão para responder o quiz. E você ainda poderá telefonar para um amigo, para pedir ajuda. Olha que beleza!",
+        "slide_8": "Muito bem, viu como o programa funciona? Muito simples, não é? Na sequência teremos questões valendo 15 pontos.",
+        "slide_9": "Trata-se do quadro Auto Teste. Agora sim, vamos ver o quanto você sabe sobre os procedimentos realizados nos Centros de Inspeção da Controlar. Clique novamente no telão para responder ao quiz. E desta vez, você contará com a ajuda da plateia.",
+        "slide_11": "Ei, antes de continuar respondendo as questões do Auto Teste, vamos dar uma pausa para os intervalos comerciais e voltamos já! Não desgrude da telinha.",
+        "slide_13": "Vamos continuar com as questões de Auto Teste. Só que desta vez, você contará com a ajuda dos nossos convidados, os universitários.",
+        "slide_15": "Chegamos ao final de mais um quadro. Opa, a produção me comunicou algo aqui.",
+        "slide_16": "Produção, estamos com uma chamada externa? É isso mesmo. Segue com você, Amanda.",
+        "slide_17": "Oi, Arlindo! Estamos falando diretamente do Centro de Inspeção, onde será realizada a segunda etapa do desafio \"Carro dos Sonhos\". Preciso fazer uma matéria sobre a Controlar, será que seu convidado pode me ajudar a responder algumas perguntinhas?",
+        "slide_19": "Muito obrigada pela ajuda. Voltamos para o estúdio. É com você, Arlindo. Até mais!",
+        "slide_20": "Até mais, Amanda. Agora vamos com uma atração muito especial. Em: Velocidade Máxima!",
+        "slide_22": "É isso mesmo, jogador! Agora você irá enfrentar um grande desafio e poderá ganhar até 80 pontos respondendo as perguntas a seguir. É a chance de você acumular mais pontos. Vamos lá?",
+        "slide_24": "Ufa! Quantas questões difíceis. Estamos chegando ao fim do programa, vamos ver o seu resultado? Clique em \"Avançar\".",
+        "slide_25": "Você atingiu <font size='28' color='#006600'>[$num:Points]</font> pontos e poderá ir para a próxima fase.\n\nFique atento, em breve teremos a segunda fase do jogo.\n\n\n<font color='#ff6254'>Clique em “Avançar” para encerrar o programa Show do Arlindo.</font>",
+        "slide_27": "Infelizmente, a sua pontuação foi de <font size='28' color='#ff6254'>[$num:Points]</font> pontos e você ainda não poderá ir para a próxima fase.\n\nJogue mais uma vez para atingir a pontuação mínima de 200 pontos.\n\nNão precisa ser agora. Veja com seu gestor o melhor momento para realizar o teste novamente.\n\n<font color='#ff6254'>Para finalizar o jogo, basta fechar esta janela.</font>",
+        "slide_28": "E aqui acaba mais um Show do Arlindo. E fique ligado, que em breve teremos mais um encontro, desta vez em um posto da Controlar, na segunda fase. Até mais!",
+        "slide_29": "Infelizmente, seu tempo esgotou.\n\nJogue mais uma vez para atingir a pontuação mínima de 200 pontos.\n\nNão precisa ser agora. Veja com seu gestor o melhor momento para realizar o teste novamente.\n\n\n<font color='#ff6254'>Para finalizar o jogo, basta fechar esta janela.</font>",
+        "instructions_slide_01": "Clique no botão Avançar para prosseguir.",
+        "instructions_slide_02": "Clique no botão Tutorial para prosseguir.",
+        "instructions_slide_04": "Por favor, espere o término da introdução.",
+        "instructions_slide_05": "Clique no botão Avançar para prosseguir.",
+        "instructions_slide_06": "Clique no Telão do cenário para começar o exercício.",
+        "instructions_slide_07": "Clique em uma das alternativas e confirme no botão abaixo. Não se esqueça de usar sua dica.",
+        "instructions_slide_08": "Clique no botão Avançar para prosseguir.",
+        "instructions_slide_09": "Clique no Telão do cenário para começar o exercício.",
+        "instructions_slide_10": "Clique em uma das alternativas e confirme no botão abaixo. Não se esqueça de usar sua dica.",
+        "instructions_slide_11": "Clique no botão Avançar para prosseguir.",
+        "instructions_slide_12": "Espere o término do comercial ou pule-o clicando no botão Avançar.",
+        "instructions_slide_13": "Clique no Telão do cenário para começar o exercício.",
+        "instructions_slide_14": "Clique em uma das alternativas e confirme no botão abaixo. Não se esqueça de usar sua dica.",
+        "instructions_slide_15": "Clique no botão Avançar para prosseguir.",
+        "instructions_slide_16": "Clique no Telão do cenário para prosseguir.",
+        "instructions_slide_17": "Clique no botão Avançar para começar o exercício.",
+        "instructions_slide_18": "Clique em uma das alternativas e confirme no botão abaixo.",
+        "instructions_slide_19": "Clique no botão Avançar para prosseguir.",
+        "instructions_slide_20": "Clique no botão Avançar para prosseguir.",
+        "instructions_slide_21": "Por favor, espere o término da animação.",
+        "instructions_slide_22": "Clique no botão Avançar para começar o exercício.",
+        "instructions_slide_23": "Clique em um dos quadros e, em seguida, em seu correspondente. Confirme no botão abaixo.",
+        "instructions_slide_24": "Clique no botão Avançar para prosseguir.",
+        "instructions_slide_25": "Clique no botão Avançar para prosseguir.",
+        "instructions_slide_27": "Recarregue o jogo para tentar novamente.",
+        "instructions_slide_28": "Clique no botão Avançar para prosseguir.",
+        "instructions_slide_29": "Feche a janela e abra o jogo novamente para jogar mais uma vez.",
+        "instructions_slide_30": "Fim do jogo.",
+        "instructions_tutorial_01": "Clique no botão Avançar para navegar para a próxima tela.",
+        "instructions_tutorial_02": "Clique no botões Avançar ou Voltar para navegar pelas telas do tutorial.",
+        "instructions_tutorial_03": "Clique no botões Avançar ou Voltar para navegar pelas telas do tutorial.",
+        "instructions_tutorial_04": "Clique no botões Avançar ou Voltar para navegar pelas telas do tutorial.",
+        "instructions_tutorial_05": "Responda a pergunta para Avançar no tutorial.",
+        "instructions_tutorial_06": "Clique no botões Avançar ou Voltar para navegar pelas telas do tutorial.",
+        "instructions_tutorial_07": "Responda a pergunta para Avançar no tutorial.",
+        "instructions_tutorial_08": "Clique no botões Avançar ou Voltar para navegar pelas telas do tutorial.",
+        "instructions_tutorial_09": "Clique no botão Voltar para navegar para a tela anterior, ou clique em avançar para começar.",
+        "tutorial_slide_01": "Bem-vindo à primeira etapa do Desafio Carro dos Sonhos.\n\nAqui você participará de um programa televisivo e será desafiado a responder questões fundamentais sobre o seu trabalho na Controlar.",
+        "tutorial_slide_02": "As questões valem pontos e o total de sua pontuação será mostrado do lado direito superior da tela. Junto aos pontos você visualiza seu progresso através do desenho do carro se formando.\n\nAo conquistar 200 pontos você está aprovado para passar para etapa 02. Os pontos que conquistar nesta etapa serão cumulativos para a próxima.\n\nSe não atingir a pontuação na primeira vez que jogar, você poderá refazer o jogo até alcançar os 200 pontos.  Porém, será penalizado em 50 pontos negativos na etapa 02.",
+        "tutorial_slide_03": "O tempo será contado retroativamente e está indicado no quadro do lado direito da tela.\n\nCaso o contador chegue ao zero, você deve refazer o jogo. Porém, será penalizado ao chegar na segunda fase, sendo descontados 50 pontos.",
+        "tutorial_slide_04": "Sempre que tiver um contorno piscante em amarelo, indica que você deve clicar naquele botão.\n\nAo lado temos dois exemplos: clique no Avançar e clique no telão do cenário.",
+        "tutorial_slide_05": "Ao acessar as questões de quiz, você deve clicar na alternativa que julgar correta e depois clicar no botão Confirmar.\n\nEscolha uma alternativa ao lado para ver como o exercício funciona.",
+        "tutorial_slide_06": "Em algumas questões, há a opção de pedir Ajuda, basta clicar nos botões indicados.\n\nMas cuidado, você só pode usar cada tipo de Ajuda uma vez. Não desperdice essa oportunidade!\n\nDo lado esquerdo da tela, há a indicação de quantos pontos valem aquela questão.",
+        "tutorial_slide_07": "Na parte final do jogo, você terá que responder quatro questões de desafio.\n\nResponda a questão ao lado para ver como o exercício irá funcionar.",
+        "tutorial_slide_08": "Para instruções de como proceder em cada tela, clique no botão indicado ao lado. Ao clicá-lo, se abrirá um quadro com a explicação do que deve ser feito.\n\nPara ocultar as instruções, basta clicar no botão novamente.",
+        "tutorial_slide_09": "O jogo possui áudio! Ligue as caixas de som ou coloque os fones de ouvido para aproveitar melhor.\n\nPreparado para começar? Assim que clicar no botão Avançar o tempo começa a contar. Se preferir, refaça agora este Tutorial, pois ele não estará disponível durante o jogo.\n\n<font size='35'>Boa Sorte!</font>\n\n\n<font color='#ff6254'>Clique no botão 'avançar', ao lado direito, para começar o jogo\nOu no botão 'reiniciar', abaixo, para reiniciar o tutorial.</font>" 
+    },
+    "config": {
+        "transitionTweenDuration": 0.5,
+        "transitionTweenExitSpec": {
+            "alpha": 0,
+            "x": 150
+        },
+        "transitionTweenEnterSpec": {
+            "alpha": 0,
+            "x": -150
+        }
+    }
+}

@@ -1,0 +1,319 @@
+﻿{
+    "components": [
+        
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "quiz_car_background",
+                "defaultDisplayProperties" : "quiz_car_background_dp",
+                "image": "quiz_car_background"
+            }
+        },
+        {
+            "type": "Button",
+            "spec": {
+                "name": "quiz_alternative_button",
+                "normal": "quiz_text_button_normal",              
+                "pressedSound": "bt_down_sound",
+                "activeNormal" : "quiz_text_button_active",
+				"normalTextProperties": "quiz_text_button_normal_tp",
+                "activeNormalTextProperties" : "quiz_text_button_active_tp"
+            }
+        },
+        {
+            "type": "TextBox",
+            "spec": {
+                "name": "quiz_title_text",
+                "defaultDisplayProperties" : "quiz_title_text_dp",
+                "image": "quiz_title_box",
+                "textProperties" : "quiz_title_text_tp"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "quiz_background_image",
+                "image": "quiz_background"
+            }
+        },
+        {
+            "type": "TextBox",
+            "spec": {
+                "name": "quiz_points_text",
+                "image": "quiz_points_box",
+                "textProperties" : "quiz_points_text_tp",
+                "defaultDisplayProperties" : "quiz_points_dp"
+            }
+        },
+        {
+            "type": "Button",
+            "spec": {
+                "name": "quiz_confirm_button",
+                "defaultDisplayProperties" : "quiz_confirm_bt_dp",
+                "normal": "quiz_go_button_up",
+                "over": "quiz_go_button_over",
+                "down": "quiz_go_button_down",
+                "overSound": "bt_over_sound",                
+                "pressedSound": "bt_down_sound",
+                "disabled" : "quiz_go_button_disabled"
+            }
+        },
+        {
+            "type": "Button",
+            "spec": {
+                "name": "tip_tel_bt",
+                "defaultDisplayProperties" : "tip_bt_dp",
+                "normal": "quiz_icon_tel_normal",
+                "over": "quiz_icon_tel_over",
+                "overSound": "bt_over_sound",                
+                "pressedSound": "bt_down_sound",
+                "disabled" : "quiz_icon_tel_disabled"
+            }
+        },
+        {
+            "type": "Button",
+            "spec": {
+                "name": "tip_plateia_bt",
+                "defaultDisplayProperties" : "tip_bt_dp",
+                "normal": "quiz_icon_plateia_normal",
+                "over": "quiz_icon_plateia_over",
+                "overSound": "bt_over_sound",                
+                "pressedSound": "bt_down_sound",
+                "disabled" : "quiz_icon_plateia_disabled"
+            }
+        },
+        {
+            "type": "Button",
+            "spec": {
+                "name": "tip_univers_bt",
+                "defaultDisplayProperties" : "tip_bt_dp",
+                "normal": "quiz_icon_univers_normal",
+                "over": "quiz_icon_univers_over",
+                "overSound": "bt_over_sound",                
+                "pressedSound": "bt_down_sound",
+                "disabled" : "quiz_icon_univers_disabled"
+            }
+        },        
+        {
+            "type": "Button",
+            "spec": {
+                "name": "close_tip_bt",            
+                "pressedSound": "bt_down_sound",
+                "defaultDisplayProperties" : "close_tip_bt_dp",
+                "normal": "quiz_tip_close_bt_normal"
+            }
+        },        
+        {
+        	"type": "TextBox",
+            "spec": {
+                "name": "tip_text_tel",
+                "image": "tip_text_tel",
+                "textProperties" : "tip_text_tp",
+                "defaultDisplayProperties" : "tip_text_dp"
+            }
+        },        
+        {
+        	"type": "TextBox",
+            "spec": {
+                "name": "tip_text_plateia",
+                "image": "tip_text_plateia",
+                "textProperties" : "tip_text_tp",
+                "defaultDisplayProperties" : "tip_text_dp"
+            }
+        },        
+        {
+        	"type": "TextBox",
+            "spec": {
+                "name": "tip_text_univers",
+                "image": "tip_text_univers",
+                "textProperties" : "tip_text_tp",
+                "defaultDisplayProperties" : "tip_text_dp"
+            }
+        },
+        {
+            "type": "MultiAlternativeQuiz",
+            "spec": {
+                "name": "quiz_slide_07",
+                "defaultDisplayProperties" : "quiz_dp",
+                "behaviour" : "weak",
+                "numOfAlternatives" : 3,
+                "titleText": "quiz_title_text",                
+                "alternativeButton": "quiz_alternative_button",
+                "backgroundImage" : "quiz_background_image",
+                "confirmButton" : "quiz_confirm_button",
+                "pointsText" : "quiz_points_text",
+                "alternativesGridX" : 10,
+                "alternativesGridY" : 115,
+                "alternativesGridYDistance" : 65,
+                "tipMax" : 1,                
+                "closeTipButton" : "close_tip_bt",
+                "tipText" : "tip_text_tel",
+                "openTipButton" : "tip_tel_bt"
+            }
+        },
+        {
+            "type": "MultiAlternativeQuiz",
+            "spec": {
+                "name": "quiz_slide_10",
+                "defaultDisplayProperties" : "quiz_dp",
+                "behaviour" : "weak",
+                "numOfAlternatives" : 3,
+                "titleText": "quiz_title_text",                
+                "alternativeButton": "quiz_alternative_button",
+                "backgroundImage" : "quiz_background_image",
+                "confirmButton" : "quiz_confirm_button",
+                "pointsText" : "quiz_points_text",
+                "alternativesGridX" : 10,
+                "alternativesGridY" : 115,
+                "alternativesGridYDistance" : 65,
+                "tipMax" : 1,                
+                "closeTipButton" : "close_tip_bt",
+                "tipText" : "tip_text_plateia",
+                "openTipButton" : "tip_plateia_bt"
+            }
+        },
+        {
+            "type": "MultiAlternativeQuiz",
+            "spec": {
+                "name": "quiz_slide_14",
+                "defaultDisplayProperties" : "quiz_dp",
+                "behaviour" : "weak",
+                "numOfAlternatives" : 3,
+                "titleText": "quiz_title_text",                
+                "alternativeButton": "quiz_alternative_button",
+                "backgroundImage" : "quiz_background_image",
+                "confirmButton" : "quiz_confirm_button",
+                "pointsText" : "quiz_points_text",
+                "alternativesGridX" : 10,
+                "alternativesGridY" : 115,
+                "alternativesGridYDistance" : 65,
+                "tipMax" : 1,                
+                "closeTipButton" : "close_tip_bt",
+                "tipText" : "tip_text_univers",
+                "openTipButton" : "tip_univers_bt"
+            }
+        },
+        {
+            "type": "MultiAlternativeQuiz",
+            "spec": {
+                "name": "quiz_slide_18",
+                "defaultDisplayProperties" : "quiz_dp",
+                "behaviour" : "weak",
+                "numOfAlternatives" : 3,
+                "titleText": "quiz_title_text",                
+                "alternativeButton": "quiz_alternative_button",
+                "backgroundImage" : "quiz_background_image",
+                "confirmButton" : "quiz_confirm_button",
+                "pointsText" : "quiz_points_text",
+                "alternativesGridX" : 10,
+                "alternativesGridY" : 115,
+                "alternativesGridYDistance" : 65
+            }
+        },
+        {
+            "type": "ComponentsContainer",
+            "spec": {
+                "name": "quiz_group",
+                "components": [
+                    {
+                        "name": "quiz_car_background"
+                    }
+                ]
+            }
+        }
+    ],
+    "displayProperties": [
+        {
+            "name": "quiz_title_text_dp",
+            "x": 5,
+            "y": 40
+        },
+        {
+            "name": "quiz_confirm_bt_dp",
+            "x": 330,
+            "y": 310
+        },
+        {
+            "name": "quiz_points_dp",
+            "y": -15
+        },
+        {
+            "name": "quiz_dp",
+            "x": 35,
+            "y": 165,
+            "depth" : 10000
+        },
+        {
+            "name": "quiz_car_background_dp",
+            "depth" : -500,
+            "x" : -12,
+            "y" : -10
+        },
+        {
+            "name": "tip_bt_dp",
+            "x" : 360,
+            "y" : -20
+        },
+        {
+            "name": "close_tip_bt_dp",
+            "x" : 600
+        },
+        {
+            "name": "tip_text_dp",
+            "x" : 100,
+            "y" : -15
+        }
+    ],
+    "textProperties": [
+        {
+            "name": "quiz_text_button_active_tp",
+            "spacingX" : 5,
+            "spacingY" : 3,
+            "textOffsetX" : -2,
+            "font": "EurostileRegular",
+            "align": "center",
+            "textColor": 16777215,
+            "size": 14
+        },
+        {
+            "name": "quiz_text_button_normal_tp",
+            "spacingX" : 5,
+            "spacingY" : 3,
+            "font": "EurostileRegular",
+            "align": "center",
+            "textColor": 4126,
+            "size": 14
+        },
+        {
+            "name": "quiz_title_text_tp",
+            "spacingLeft" : 5,
+	    "spacingRight" : 15,
+            "spacingY" : 3,
+            "font": "EurostileRegular",
+            "align": "center",
+            "verticalAlign": "center",
+            "textColor": 1200003,
+            "size": 13
+        },
+        {
+            "name": "quiz_points_text_tp",
+            "spacingRight" : 55,
+            "font": "EurostileRegular",
+            "align": "center",
+            "textColor": 1915233,
+            "size": 30
+        },
+        {
+            "name": "tip_text_tp",
+            "spacingRight" : 25,
+            "spacingLeft" : 50,
+            "font": "EurostileRegular",
+            "align": "center",
+            "verticalAlign": "center",
+            "textColor": 1915233,
+            "size": 22,
+            "textOffsetX" : -30,
+            "textOffsetY" : -5
+        }
+    ]
+}

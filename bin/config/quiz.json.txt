@@ -1,0 +1,3610 @@
+﻿{
+	"quiz" : {
+    "version": {
+        "version": "Version 1.0",
+        "dateVersion": "30/01/2012 00:00:00"
+    },
+    "questions": [
+        {
+            "idQuestion": 2,
+            "txtQuestion": "Todo veículo possui um cadastro identificando sua cor no Detran. A Controlar confere se a cor do veículo inspecionado está de acordo com seu cadastro. Qual a melhor maneira de identificar a cor de um carro?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 1,
+            "levelDefinition": "Assistente de Atendimento",
+            "tip": "Arlindo, eu prefiro não arriscar. Não vou opinar.",
+            "alternatives": [
+                {
+                    "idAlternative": 10,
+                    "txtAlternative01": "O veículo deve estar todo com a mesma cor, não podendo haver adesivos ou partes de tintura de outra cor.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 11,
+                    "txtAlternative01": "Os adesivos não podem ser aceitos, mesmo que sejam da mesma cor que consta no cadastro do Detran.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 12,
+                    "txtAlternative01": "O método indicado pela Controlar é verificar se a cor predominante está presente em pelos menos 3 partes do veículo.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 13,
+            "txtQuestion": "Pode-se ressaltar que NÃO é um dos compromissos da Política do Sistema de Gestão Integrado (SGI):",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "Institucional",
+            "score": 10,
+            "level": 1,
+            "levelDefinition": "Assistente de Atendimento",
+            "tip": "Você: Você sabe se é um dos compromissos do SGI reconhecer, mas não analisar criticamente os objetivos e metas da Controlar? \nAmigo: Acho que não é, porque analisar criticamente é muito importante em um sistema de gestão.",
+            "alternatives": [
+                {
+                    "idAlternative": 14,
+                    "txtAlternative01": "Reconhecer, mas não analisar criticamente os objetivos e metas.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 15,
+                    "txtAlternative01": "Proporcionar a satisfação dos clientes externos.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 16,
+                    "txtAlternative01": "Atender aos requisitos legais e outros subscritos pela empresa.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 14,
+            "txtQuestion": "De acordo com a Política do Sistema de Gestão Integrado (SGI), o que é anomalia?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "Institucional",
+            "score": 10,
+            "level": 1,
+            "levelDefinition": "Assistente de Atendimento",
+            "tip": "Você: Ei, o que é anomalia? \nAmigo: Olha, achei a definição aqui no dicionário e diz que Anomalia é aquilo que se desvia da norma. Te ajudei?",
+            "alternatives": [
+                {
+                    "idAlternative": 22,
+                    "txtAlternative01": "Atender aos requisitos legais e outros subscritos pela empresa.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 23,
+                    "txtAlternative01": "Qualquer irregularidade, incidente, anormalidade ou desvios dos procedimentos da empresa.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 24,
+                    "txtAlternative01": "Assumir a responsabilidade de minha segurança e a dos colegas.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 15,
+            "txtQuestion": "De acordo com a Política do Sistema de Gestão Integrado (SGI), o que é RTA?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "Institucional",
+            "score": 10,
+            "level": 1,
+            "levelDefinition": "Assistente de Atendimento",
+            "tip": "Você: Sabe que tipo de formulário é esse RTA? \nAmigo: Eu acho que seja algo relacionado ao controle das anomalias e mais alguma coisa que não lembro.",
+            "alternatives": [
+                {
+                    "idAlternative": 25,
+                    "txtAlternative01": "Formulário onde constam as responsabilidades do colaborador e as informações de como seguir as normas e procedimentos para tornar o local de trabalho ainda mais seguro.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 26,
+                    "txtAlternative01": "Formulário que é utilizado para registrar as anomalias e verificar se realmente existem.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 29,
+                    "txtAlternative01": "Formulário padrão da CONTROLAR, que é utilizado para documentar, investigar, tomar ações necessárias e verificar a implementação das ações referentes às anomalias encontradas.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 16,
+            "txtQuestion": "Para que serve a planilha de Perigos e Riscos?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "Institucional",
+            "score": 10,
+            "level": 1,
+            "levelDefinition": "Assistente de Atendimento",
+            "tip": "Você: Já ouviu falar da planilha de Perigos e Riscos da Controlar? \nAmigo: Conheço sim. A planilha é uma forma de prevenir riscos, vai por mim.",
+            "alternatives": [
+                {
+                    "idAlternative": 30,
+                    "txtAlternative01": "Planilha que tem como objetivo identificar os riscos dentro das atividades, para estabelecer formas de controle para reduzi-los e/ou mantê-los sob controle.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 31,
+                    "txtAlternative01": "Planilha padrão da CONTROLAR, que é utilizada para documentar, investigar, tomar ações necessárias e verificar a implementação das ações referentes às anomalias encontradas.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 32,
+                    "txtAlternative01": "Planilha que tem como objetivo identificar, prevenir, controlar e mitigar os aspectos e impactos ambientais e os perigos e danos ocupacionais significativos.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 17,
+            "txtQuestion": "Por qual motivo a CONTROLAR mantém a coleta seletiva?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "Institucional",
+            "score": 10,
+            "level": 1,
+            "levelDefinition": "Assistente de Atendimento",
+            "tip": "Você: Você sabe por que tem coleta seletiva na Controlar? \nAmigo: Eu não sei. Na verdade nem sabia que tinha coleta seletiva na Controlar.",
+            "alternatives": [
+                {
+                    "idAlternative": 33,
+                    "txtAlternative01": "Para manter somente o ambiente limpo.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 34,
+                    "txtAlternative01": "Para manter o ambiente limpo e organizado, bem como conscientizar os colaboradores para a eliminação de desperdícios.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 35,
+                    "txtAlternative01": "Para estabelecer parâmetros que permitam a adaptação das condições de trabalho.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 18,
+            "txtQuestion": "Qual o objetivo do Comitê de QSMS?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "Institucional",
+            "score": 10,
+            "level": 1,
+            "levelDefinition": "Assistente de Atendimento",
+            "tip": "Você: Você sabe o que é o Comitê QSMS? \nAmigo: Eu não tenho certeza, mas acredito que tenha alguma relação com segurança dos trabalhadores.",
+            "alternatives": [
+                {
+                    "idAlternative": 36,
+                    "txtAlternative01": "Antecipar as mudanças e tendências em relação aos negócios.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 37,
+                    "txtAlternative01": "Ajudar as pessoas a entenderem seus papéis atuais e como estes estão se transformando.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 38,
+                    "txtAlternative01": "Avaliar as atividades da CONTROLAR, de forma a atuar preventivamente no tratamento de riscos potenciais que interfiram na qualidade dos serviços, da saúde e segurança ocupacional dos colaboradores, terceiros e visitantes, bem como aspectos e impactos ambientais resultantes dos processos executados.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 20,
+            "txtQuestion": "Qual a finalidade da utilização das máscaras de segurança no ambiente de trabalho?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "Institucional",
+            "score": 10,
+            "level": 1,
+            "levelDefinition": "Assistente de Atendimento",
+            "tip": "Você: Por que os funcionários devem usar máscaras no ambiente de trabalho? \nAmigo: Porque eles têm contato com substâncias tóxicas e podem se intoxicar se não usarem.",
+            "alternatives": [
+                {
+                    "idAlternative": 39,
+                    "txtAlternative01": "Evitar a inalação de partículas em suspensão na atmosfera, protegendo as vias respiratórias.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 40,
+                    "txtAlternative01": "Proteger a boca, pois é a parte do corpo que está mais exposta.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 41,
+                    "txtAlternative01": "Evitar que o ar passe pelas laterais.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 21,
+            "txtQuestion": "O que é EPI?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "Institucional",
+            "score": 10,
+            "level": 1,
+            "levelDefinition": "Assistente de Atendimento",
+            "tip": "Você: Estou com uma dúvida, pode me ajudar? EPI tem relação com equipamentos, não tem? \nAmigo: Tem sim. E está relacionado com a nossa segurança também.",
+            "alternatives": [
+                {
+                    "idAlternative": 42,
+                    "txtAlternative01": "É um dispositivo destinado a preservar a saúde da pessoa durante o exercício de suas atividades profissionais.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 43,
+                    "txtAlternative01": "É a sigla para Equipamentos de Proteção Individual, ou seja, é todo dispositivo de proteção individual destinado a preservar a saúde e a integridade física da pessoa durante o exercício de suas atividades profissionais, como protetores auriculares, luvas, máscaras, calçados de segurança e uniforme.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 44,
+                    "txtAlternative01": "É todo dispositivo de proteção individual que deve ser utilizado para não ser punido. Ex.: Protetores auriculares, luvas, máscaras, calçados de segurança e uniforme.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 22,
+            "txtQuestion": "Com relação à utilização do EPI, o que NÃO cabe ao colaborador?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "Institucional",
+            "score": 10,
+            "level": 1,
+            "levelDefinition": "Assistente de Atendimento",
+            "tip": "Você: Fiquei com uma dúvida aqui, você sabe se são os trabalhadores que têm que providenciar os equipamentos para as atividade na Controlar? \nAmigo: Tenho certeza que não é o colaborador que tem que ver isso.",
+            "alternatives": [
+                {
+                    "idAlternative": 45,
+                    "txtAlternative01": "Usar, utilizando-o apenas para a finalidade a que se destina.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 46,
+                    "txtAlternative01": "Responsabilizar-se pela manutenção.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 47,
+                    "txtAlternative01": "Adquirir o EPI adequado para cada atividade.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 23,
+            "txtQuestion": "Com relação à utilização do EPI, o que NÃO é de responsabilidade da empresa?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "Institucional",
+            "score": 10,
+            "level": 1,
+            "levelDefinition": "Assistente de Atendimento",
+            "tip": "Você: Uma das seguintes ações em relação ao EPI não é de responsabilidade da empresa: responsabilizar-se pela conservação, substituí-lo ou adquiri-lo. Você sabe qual é? \nAmigo: Eu não faço a menor ideia, me desculpe.",
+            "alternatives": [
+                {
+                    "idAlternative": 48,
+                    "txtAlternative01": "Responsabilizar-se pela guarda e conservação.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 49,
+                    "txtAlternative01": "Substituí-lo imediatamente, quando danificado ou extraviado.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 50,
+                    "txtAlternative01": "Adquirir o EPI adequado para cada atividade.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 33,
+            "txtQuestion": "Um veículo chega ao CIVA com a inspeção agendada, mas o assistente de atendimento nota que a placa do veículo possui o fundo amarelo com letras e números pretos. O que ele deve fazer?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 1,
+            "levelDefinition": "Assistente de Atendimento",
+            "tip": "Acredito que veículos antigos realizam inspeções.",
+            "alternatives": [
+                {
+                    "idAlternative": 78,
+                    "txtAlternative01": "O assistente deve pedir ao motorista que regularize a placa junto ao DETRAN e reagende a Inspeção.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 79,
+                    "txtAlternative01": "A inspeção deve seguir normalmente, pois placas amarelas ainda podem existir.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 80,
+                    "txtAlternative01": "O assistente deve mandar o carro para a inspeção, mesmo sabendo que o carro será rejeitado.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 34,
+            "txtQuestion": "Considere a seguinte situação: um veículo Otto Leve chega mais de trinta minutos atrasado em relação ao horário agendado. O que o assistente de atendimento, na guarita, deve fazer?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 1,
+            "levelDefinition": "Assistente de Atendimento",
+            "tip": "O horário de tolerância da Controlar é de 30 minutos, então, se o veículo atrasar mais do que isso, não há garantia de atendimento.",
+            "alternatives": [
+                {
+                    "idAlternative": 81,
+                    "txtAlternative01": "Caso haja vaga no estacionamento, o veículo pode aguardar até que o pátio de espera esteja vazio, pois é certeza que o inspetor consegue “encaixar” sua inspeção.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 82,
+                    "txtAlternative01": "Caso haja vaga no estacionamento, o veículo pode aguardar até que o pátio de espera esteja vazio, ou seja, até quando a fila para inspeção for menor que dois veículos por linha na espera.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 83,
+                    "txtAlternative01": "O assistente deve solicitar que o motorista agende outro horário para inspeção, pois não é permitido atender fora do horário.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 35,
+            "txtQuestion": "Qual deve ser a orientação que o assistente técnico deve dar ao condutor de veículos Otto leve, quando este estiver esperando na fila para entrar no piso azul?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 2,
+            "levelDefinition": "Assistente tecnico",
+            "tip": "O assistente deve esclarecer as dúvidas do cliente e pedir que deixe o capô destravado e o carro ligado.",
+            "alternatives": [
+                {
+                    "idAlternative": 84,
+                    "txtAlternative01": "O assistente técnico deve pedir ao condutor que deixe o capô destravado, o veículo ligado e que desça levando os pertences de valor. Ele também deve esclarecer as eventuais dúvidas do cliente e solicitar que este aguarde na faixa amarela, pois ao término da inspeção irá chamá-lo para explicar o resultado.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 85,
+                    "txtAlternative01": "O assistente técnico deve apenas pedir que o cliente aguarde na faixa amarela e dizer que se houver qualquer problema, ele será chamado.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 86,
+                    "txtAlternative01": "O assistente técnico deve pedir ao condutor que deixe o capô destravado, o veículo desligado e que desça levando os pertences de valor. Ele também deve esclarecer as eventuais dúvidas do cliente e solicitar que este aguarde na faixa amarela, pois ao término da inspeção irá chamá-lo para explicar o resultado.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 36,
+            "txtQuestion": "Qual deve ser a orientação dada ao condutor de motocicleta quando este estiver esperando na fila para entrar no piso azul?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 2,
+            "levelDefinition": "Assistente tecnico",
+            "tip": "Arlindo, eu prefiro não arriscar. Não vou opinar.",
+            "alternatives": [
+                {
+                    "idAlternative": 87,
+                    "txtAlternative01": "O Inspetor deve pedir ao condutor que desça da moto e espere na linha amarela para que a inspeção seja feita.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 88,
+                    "txtAlternative01": "O Inspetor deve apenas pedir ao cliente que posicione a motocicleta ao lado do Rack de inspeção, empurrando-a (sentado ou andando), e que permaneça sentado mantendo a moto na vertical durante a inspeção.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 89,
+                    "txtAlternative01": "O Inspetor deve pedir ao condutor que acelere com a moto até o local de inspeção, ao lado do Rack de inspeção.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 37,
+            "txtQuestion": "Após a passagem do veículo pela recepção, ele se dirige à fila de espera antes de chegar ao piso azul. Escolha a alternativa que descreve corretamente como deve ser este processo em veículos do Ciclo Otto leve.",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 2,
+            "levelDefinition": "Assistente tecnico",
+            "tip": "Eu sei que é o assistente técnico quem, preferencialmente, conduz o veículo até o piso azul. Mas não sei se ele pode rejeitar o veículo, caso o motorista não aceite.",
+            "alternatives": [
+                {
+                    "idAlternative": 90,
+                    "txtAlternative01": "O veículo deve, obrigatoriamente, ser conduzido pelo assistente técnico. Se o motorista não concordar, o veículo é reprovado.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 91,
+                    "txtAlternative01": "O assistente técnico deve sugerir ao motorista que entregue o carro, para que o próprio assistente conduza o veículo até a área de inspeção. Caso o motorista não concorde, ele mesmo deve conduzir e, em seguida, sair do carro.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 92,
+                    "txtAlternative01": "O inspetor, caso esteja atuando como assistente técnico, pode conduzir o carro até o piso azul e, em seguida, ele próprio realizar a inspeção.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 38,
+            "txtQuestion": "Após a passagem do veículo pela recepção, ele se dirige à fila de espera antes de chegar ao piso azul. Escolha a alternativa que descreve corretamente como deve ser este processo em veículos do Ciclo Diesel Pesado.",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 2,
+            "levelDefinition": "Assistente tecnico",
+            "tip": "É recomendável, para a segurança de todos, que o próprio cliente abra a cabine basculante do veículo.",
+            "alternatives": [
+                {
+                    "idAlternative": 93,
+                    "txtAlternative01": "O veículo deve, obrigatoriamente, ser conduzido pelo assistente técnico. Se o motorista não concordar, o veículo é reprovado.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 94,
+                    "txtAlternative01": "O condutor do veículo deve, preferencialmente, conduzir o veículo ao piso azul. Em seguida, o condutor deve se dirigir à área de segurança, deixando que o assistente técnico abra a cabine basculante do veículo.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 95,
+                    "txtAlternative01": "O condutor deve, preferencialmente, conduzir o veículo ao piso azul. Em seguida, o próprio condutor deve abrir a cabine basculante do veículo.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 39,
+            "txtQuestion": "Como o assistente técnico, sentado no banco do motorista, deve proceder para que o Inspetor possa analisar o ruído auditivamente e a fumaça visível (exceto vapor d’água) em veículos Otto leve?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 2,
+            "levelDefinition": "Assistente tecnico",
+            "tip": "Acredito que para sair fumaça é necessário desacelerar bruscamente.",
+            "alternatives": [
+                {
+                    "idAlternative": 96,
+                    "txtAlternative01": "Ele deve acelerar até 1/2 curso do acelerador e em seguida desacelerar lentamente.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 97,
+                    "txtAlternative01": "Ele deve empurrar o pedal do acelerador até o fim e voltar à posição inicial lentamente.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 98,
+                    "txtAlternative01": "Ele deve acelerar até 1/2 curso do acelerador e em seguida tirar o pé (desacelerar) bruscamente.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 40,
+            "txtQuestion": "Qual a melhor maneira para o assistente de atendimento informar que um veículo foi rejeitado?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 2,
+            "levelDefinition": "Assistente tecnico",
+            "tip": "O assistente deve informar o motivo pelo qual o carro foi rejeitado, apesar de não poder diagnosticar o problema.",
+            "alternatives": [
+                {
+                    "idAlternative": 99,
+                    "txtAlternative01": "O assistente deve primeiro agradecer a vinda do condutor para a inspeção. Em seguida, deve informar o motivo da rejeição, orientá-lo a procurar um mecânico e pedir que agende uma nova visita no prazo de 30 dias.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 100,
+                    "txtAlternative01": "O assistente deve apenas entregar o relatório e aguardar por eventuais dúvidas que o cliente possa ter.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 101,
+                    "txtAlternative01": "O assistente deve primeiro agradecer a vinda do condutor para a inspeção. Em seguida, deve entregar o relatório e aguardar por eventuais dúvidas que o cliente possa ter.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 41,
+            "txtQuestion": "O Inspetor, durante a inspeção de um veículo Otto Leve parado no piso azul, constata que está ocorrendo um vazamento no dreno do sistema de ar-condicionado do veículo. O que ele deve fazer?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 3,
+            "levelDefinition": "Inspetor",
+            "tip": "Gotejamento de água causado pelo dreno do ar-condicionado não é item de rejeição.",
+            "alternatives": [
+                {
+                    "idAlternative": 102,
+                    "txtAlternative01": "O inspetor deve rejeitar o veículo.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 103,
+                    "txtAlternative01": "O veículo deve ser reprovado, porém a inspeção deve continuar até o fim.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 104,
+                    "txtAlternative01": "O veículo não deve ser rejeitado por gotejamento pelo dreno do ar-condicionado.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 42,
+            "txtQuestion": "Na pré-inspeção visual, o Inspetor constatou que havia uma massa de durepoxi fechando um provável furo que havia no escapamento de um carro. Ele achou que não havia problema, pois não constatou nenhuma fumaça saindo nem um ruído muito alto. Mas na dúvida, resolveu consultar o ATR, que o orientou a:",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 3,
+            "levelDefinition": "Inspetor",
+            "tip": "Arlindo, eu prefiro não arriscar. Não vou opinar.",
+            "alternatives": [
+                {
+                    "idAlternative": 105,
+                    "txtAlternative01": "Rejeitar o veículo, pois sistemas de escape que estejam reparados com qualquer tipo de massa, que não seja específica para junção de escapamento, devem ser rejeitados.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 106,
+                    "txtAlternative01": "Não rejeitar o veículo, pois se o Inspetor não notou alteração na intensidade do ruído, não há motivo para rejeição.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 107,
+                    "txtAlternative01": "Não rejeitar o veículo, pois é admissível a presença de massa para reparar danos no sistema de escapamento.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 43,
+            "txtQuestion": "Em uma inspeção de veículo Otto leve, o inspetor e o assistente estavam terminando a inspeção e não haviam constatado nenhuma irregularidade. Quando iam encerrar, o inspetor viu uma gota de óleo lubrificante no piso azul. O que ele deve fazer?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 3,
+            "levelDefinition": "Inspetor",
+            "tip": "O que consta na ITO é que vazamento de óleo é item de rejeição.",
+            "alternatives": [
+                {
+                    "idAlternative": 108,
+                    "txtAlternative01": "Rejeitar o veículo, pois vazamento aparente de fluido é item para rejeição.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 109,
+                    "txtAlternative01": "Não rejeitar o veículo, afinal, foi só uma gota de óleo que vazou, não caracterizando um vazamento grave.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 110,
+                    "txtAlternative01": "O inspetor não deve rejeitar o veículo, pois como ele só viu a gota após ter feito a medição de gases com a sonda, isso pode ter causado o vazamento.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 44,
+            "txtQuestion": "O Inspetor, em um veículo do Ciclo Otto leve, constatou que uma parte da dianteira do carro estava amassada, provavelmente ocasionado por uma batida. Ele conseguiu abrir o capô e achou melhor não registrar a alteração. Após realizar a inspeção, ele não conseguiu fechar o capô, mesmo depois de duas tentativas. O que ele deve fazer?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 3,
+            "levelDefinition": "Inspetor",
+            "tip": "Na ITO, o não fechamento do capô não consta como item de rejeição.",
+            "alternatives": [
+                {
+                    "idAlternative": 111,
+                    "txtAlternative01": "O Inspetor deve chamar seu Supervisor e, caso este também não consiga, o cliente pode ir ao piso azul para tentar fechar o capô.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 112,
+                    "txtAlternative01": "O veículo deve ser reprovado por impossibilidade de manuseio do capô.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 113,
+                    "txtAlternative01": "O Inspetor entrega o carro ao cliente, sem registrar nenhuma ocorrência.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 45,
+            "txtQuestion": "Durante a Inspeção Visual, um dos itens observados no ciclo Otto Leve é o funcionamento da lâmpada LIM para veículos fabricados a partir de 2009. Como deve ser a checagem deste item?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 3,
+            "levelDefinition": "Inspetor",
+            "tip": "Arlindo, eu prefiro não arriscar. Não vou opinar.",
+            "alternatives": [
+                {
+                    "idAlternative": 114,
+                    "txtAlternative01": "A lâmpada LIM deve permanecer apagada durante toda a inspeção, indicando que não há nenhum problema no motor do carro. Caso ela acenda em qualquer momento da inspeção, o veículo deve ser rejeitado.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 115,
+                    "txtAlternative01": "A lâmpada LIM deve permanecer acesa durante toda a inspeção, indicando o bom funcionamento do motor.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 116,
+                    "txtAlternative01": "O correto funcionamento da lâmpada é o seguinte: ela acende ao girar a chave de ignição e apaga logo após a partida. Qualquer variação neste procedimento, o veículo deve ser reprovado.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 46,
+            "txtQuestion": "Em que momento o Inspetor deve digitar a placa para iniciar a Inspeção?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 3,
+            "levelDefinition": "Inspetor",
+            "tip": "Arlindo, eu prefiro não arriscar. Não vou opinar.",
+            "alternatives": [
+                {
+                    "idAlternative": 117,
+                    "txtAlternative01": "A qualquer momento em que o Inspetor achar necessário.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 118,
+                    "txtAlternative01": "Somente no piso azul, após verificar a placa dianteira e traseira.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 119,
+                    "txtAlternative01": "Assim que o Inspetor conseguir ler a placa, mesmo que seja antes do piso azul.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 47,
+            "txtQuestion": "Como o sensor AVL deve ser posicionado no carro para que a inspeção possa ser feita de maneira adequada?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 3,
+            "levelDefinition": "Inspetor",
+            "tip": "Eu sei que o sensor não deve ser apoiado sobre o coletor de escape ou próximo às partes móveis, mas não sei qual o procedimento adequado.",
+            "alternatives": [
+                {
+                    "idAlternative": 120,
+                    "txtAlternative01": "A base magnética do sensor AVL deve aproximar-se na parte metálica do motor, a uma inclinação de aproximadamente 90° até o seu completo contato. A área de apoio deve ser maior ou igual à base magnética do sensor, se possível.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 121,
+                    "txtAlternative01": "O sensor deve ser apoiado sobre o coletor de escape, bem próximo às partes móveis.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 122,
+                    "txtAlternative01": "A base magnética do sensor AVL deve aproximar-se na parte metálica do motor, a uma inclinação de aproximadamente 45° até o seu completo contato. A área de apoio deve ser maior ou igual à base magnética do sensor, se possível. Esta área de apoio não deve ser pontiaguda, arredondada ou canto vivo.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 48,
+            "txtQuestion": "O sensor magnético pode ser usado para medir a rotação do motor no Ciclo Otto Motociclo. Como ele deve ser posicionado nas motocicletas?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 3,
+            "levelDefinition": "Inspetor",
+            "tip": "Eu sei que a base magnética do sensor não deve ser posicionada na vela de ignição, mas não sei qual o procedimento adequado.",
+            "alternatives": [
+                {
+                    "idAlternative": 123,
+                    "txtAlternative01": "A base magnética do sensor deve ser posicionada próximo à bobina de ignição.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 124,
+                    "txtAlternative01": "A base magnética do sensor deve ser posicionada na vela de ignição ou no cabo da vela da motocicleta/scooter/triCiclo.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 125,
+                    "txtAlternative01": "O sensor deve ser apoiado sobre o coletor de escape, bem próximo às partes móveis.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 49,
+            "txtQuestion": "Abaixo estão quatro procedimentos referentes à inspeção em veículo do ciclo Otto. Relacione as ações com a etapa que ela se encaixa, deixando na ordem correta em que as ações devem ser realizadas. Para ligar os quadros, basta clicar em um dos quadros e, em seguida, clicar no quadro correspondente.",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Arrastetexto",
+            "categoryQuestion": "Desafio",
+            "score": 20,
+            "level": 3,
+            "levelDefinition": "Inspetor",
+            "tip": "none",
+            "alternatives": [
+                {
+                    "idAlternative": 126,
+                    "txtAlternative01": "Checagem da fumaça visível.",
+                    "txtAlternative02": "Primeira Etapa",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 127,
+                    "txtAlternative01": "Checagem da pré-inspeção visual e inspeção visual.",
+                    "txtAlternative02": "Segunda Etapa",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 128,
+                    "txtAlternative01": "Análise de gases.",
+                    "txtAlternative02": "Terceira Etapa",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 3
+                },
+                {
+                    "idAlternative": 129,
+                    "txtAlternative01": "Medição dos níveis de ruído emitidos pelo veículo.",
+                    "txtAlternative02": "Quarta Etapa",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 4
+                }
+            ]
+        },
+        {
+            "idQuestion": 50,
+            "txtQuestion": "Abaixo estão listados quatro aparelhos utilizados pelo Inspetor. Relacione cada aparelho com a função correspondente. Para ligar os quadros, basta clicar em um dos quadros e, em seguida, clicar no quadro correspondente.",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Arrastetexto",
+            "categoryQuestion": "Desafio",
+            "score": 20,
+            "level": 3,
+            "levelDefinition": "Inspetor",
+            "tip": "none",
+            "alternatives": [
+                {
+                    "idAlternative": 130,
+                    "txtAlternative01": "Sensor AVL",
+                    "txtAlternative02": "Efetua a medição das rotações do motor.",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 131,
+                    "txtAlternative01": "Analisador de Gases",
+                    "txtAlternative02": "Efetua a medição dos gases emitidos pelo motor.",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 132,
+                    "txtAlternative01": "Espelho",
+                    "txtAlternative02": "Utilizado para checar visualmente se os componentes do veículo estão em situação adequada.",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 3
+                },
+                {
+                    "idAlternative": 133,
+                    "txtAlternative01": "Decibelímetro",
+                    "txtAlternative02": "Efetua a medição de nível sonoro emitido pelo veículo.",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 4
+                }
+            ]
+        },
+        {
+            "idQuestion": 51,
+            "txtQuestion": "Abaixo estão apresentadas quatro situações que o assistente pode encontrar para a entrega do laudo ao final da inspeção. Relacione cada situação com o correto procedimento que deve ser tomado. Para ligar os quadros, basta clicar em um dos quadros e, em seguida, clicar no quadro correspondente.",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Arrastetexto",
+            "categoryQuestion": "Desafio",
+            "score": 20,
+            "level": 2,
+            "levelDefinition": "Assistente tecnico",
+            "tip": "none",
+            "alternatives": [
+                {
+                    "idAlternative": 134,
+                    "txtAlternative01": "Veículo Aprovado",
+                    "txtAlternative02": "Informar que o licenciamento pode ser feito após 72 horas após a inspeção.",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 135,
+                    "txtAlternative01": "Veículo Designado ao Ruído",
+                    "txtAlternative02": "Direcionar o cliente ao local da inspeção de ruído (Medidor de Nível Sonoro-MNS).",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 136,
+                    "txtAlternative01": "Veículo Rejeitado/Reprovado",
+                    "txtAlternative02": "Recomendar ao cliente que procure um mecânico para manutenção do veículo.",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 3
+                },
+                {
+                    "idAlternative": 137,
+                    "txtAlternative01": "Cliente insatisfeito com o laudo",
+                    "txtAlternative02": "Encaminhar para conversa com ATR ou Supervisor.",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 4
+                }
+            ]
+        },
+        {
+            "idQuestion": 52,
+            "txtQuestion": "Abaixo estão apresentadas quatro situações que o Inspetor pode encontrar para a entrega do laudo ao cliente, após realizada a Inspeção de Ruído. Relacione as situações com o correto procedimento que deve ser realizado. Para ligar os quadros, basta clicar em um dos quadros e, em seguida, clicar no quadro correspondente.",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Arrastetexto",
+            "categoryQuestion": "Desafio",
+            "score": 20,
+            "level": 2,
+            "levelDefinition": "Assistente tecnico",
+            "tip": "none",
+            "alternatives": [
+                {
+                    "idAlternative": 138,
+                    "txtAlternative01": "Veículo aprovado na emissão de ruído",
+                    "txtAlternative02": "Informar que o licenciamento pode ser feito 72 horas após a inspeção.",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 139,
+                    "txtAlternative01": "Veículo reprovado na emissão de ruído",
+                    "txtAlternative02": "Recomendar ao cliente que procure um mecânico para manutenção do veículo, pois os níveis sonoros estão acima do permitido.",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 140,
+                    "txtAlternative01": "Veículo Rejeitado na Inspeção de Ruído",
+                    "txtAlternative02": "Informar qual anormalidade foi verificada e recomendar ao cliente que procure um mecânico para manutenção do veículo.",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 3
+                },
+                {
+                    "idAlternative": 141,
+                    "txtAlternative01": "O cliente argumenta contra o resultado",
+                    "txtAlternative02": "Encaminhar para conversa com ATR ou Supervisor.",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 4
+                }
+            ]
+        },
+        {
+            "idQuestion": 53,
+            "txtQuestion": "Abaixo estão algumas fotos, relacionadas ao sistema de admissão de ar, tiradas de veículos que realizaram a inspeção veicular em algum posto da Controlar. Relacione cada foto com o diagnóstico dado a cada situação. Para ligar os quadros, basta clicar em um dos quadros e, em seguida, clicar no quadro correspondente.",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "ArrasteImagem",
+            "categoryQuestion": "Desafio",
+            "score": 20,
+            "level": 3,
+            "levelDefinition": "Inspetor",
+            "tip": "none",
+            "alternatives": [
+                {
+                    "idAlternative": 142,
+                    "txtAlternative01": "none",
+                    "txtAlternative02": "Veículo Rejeitado por apresentar reparo com massa plástica, como o durepoxi, no duto de ar.",
+                    "imgAlternative": "duto_de_ar_01.png",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 143,
+                    "txtAlternative01": "none",
+                    "txtAlternative02": "Veículo Aprovado, pois o furo apresentado no duto de ar é original.",
+                    "imgAlternative": "duto_de_ar_02.png",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 144,
+                    "txtAlternative01": "none",
+                    "txtAlternative02": "Veículo Aprovado, pois a ausência do duto de captação de ar era devido a uma interferência do componente GNV.",
+                    "imgAlternative": "duto_de_ar_03.png",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 3
+                },
+                {
+                    "idAlternative": 145,
+                    "txtAlternative01": "none",
+                    "txtAlternative02": "Veículo Rejeitado por ser fabricado a menos de 10 anos e apresentar a falta do duto de captação de ar.",
+                    "imgAlternative": "duto_de_ar_04.png",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 4
+                }
+            ]
+        },
+        {
+            "idQuestion": 54,
+            "txtQuestion": "Abaixo há quatro tipos de placas presentes no sistema de identificação brasileiro. Relacione cada placa com o correto procedimento que cada uma deve ter na Controlar. Para ligar os quadros, basta clicar em um dos quadros e, em seguida, clicar no quadro correspondente.",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "ArrasteImagem",
+            "categoryQuestion": "Desafio",
+            "score": 20,
+            "level": 1,
+            "levelDefinition": "Assistente de Atendimento",
+            "tip": "none",
+            "alternatives": [
+                {
+                    "idAlternative": 146,
+                    "txtAlternative01": "none",
+                    "txtAlternative02": "Realiza a inspeção mesmo que o veículo esteja cadastrado como particular, pois é permitido o registro de representações estrangeiras.",
+                    "imgAlternative": "placa_01.png",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 147,
+                    "txtAlternative01": "none",
+                    "txtAlternative02": "Realiza inspeção, pois trata-se de veículo de auto escola.",
+                    "imgAlternative": "placa_02.png",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 148,
+                    "txtAlternative01": "none",
+                    "txtAlternative02": "Não realiza inspeção, pois trata-se de veículo de colecionador.",
+                    "imgAlternative": "placa_03.png",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 3
+                },
+                {
+                    "idAlternative": 149,
+                    "txtAlternative01": "none",
+                    "txtAlternative02": "Não realiza inspeção, pois trata-se de veículo de fabricante.",
+                    "imgAlternative": "placa_04.png",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 4
+                }
+            ]
+        },
+        {
+            "idQuestion": 55,
+            "txtQuestion": "Abaixo estão quatro procedimentos que o assistente técnico deve realizar na parada do veículo otto no piso azul. Relacione os quadros para que os procedimentos fiquem na correto ordem que devem ser realizados. Para ligar os quadros, basta clicar em um dos quadros e, em seguida, clicar no quadro correspondente.",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Arrastetexto",
+            "categoryQuestion": "Desafio",
+            "score": 20,
+            "level": 2,
+            "levelDefinition": "Assistente tecnico",
+            "tip": "none",
+            "alternatives": [
+                {
+                    "idAlternative": 150,
+                    "txtAlternative01": "Estacionar o veículo paralelamente ao guarda-corpo.",
+                    "txtAlternative02": "Primeira Etapa",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 151,
+                    "txtAlternative01": "Desligar ar-condicionado, caso esteja ligado.",
+                    "txtAlternative02": "Segunda Etapa",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 152,
+                    "txtAlternative01": "Acelerar até 1/2 curso do acelerador, para checagem da fumaça e ruído.",
+                    "txtAlternative02": "Terceira Etapa",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 3
+                },
+                {
+                    "idAlternative": 153,
+                    "txtAlternative01": "Checar a quilometragem do veículo.",
+                    "txtAlternative02": "Quarta Etapa",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 4
+                }
+            ]
+        },
+        {
+            "idQuestion": 56,
+            "txtQuestion": "Todos os veículos necessitam ter prévio agendamento para poderem realizar a inspeção veicular. Abaixo estão listadas algumas situações com que o assistente de atendimento pode se deparar ao atender um cliente. Para ligar os quadros, basta clicar em um dos quadros e, em seguida, clicar no quadro correspondente.",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Arrastetexto",
+            "categoryQuestion": "Desafio",
+            "score": 20,
+            "level": 1,
+            "levelDefinition": "Assistente de Atendimento",
+            "tip": "none",
+            "alternatives": [
+                {
+                    "idAlternative": 154,
+                    "txtAlternative01": "Atrasado até 30 minutos e pátio vazio.",
+                    "txtAlternative02": "Dirigir-se para a linha de inspeção.",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 155,
+                    "txtAlternative01": "Atrasado acima de 30 minutos e pátio cheio, mas com estacionamento vazio.",
+                    "txtAlternative02": "Reagendar a visita ou aguardar no estacionamento, sem garantia de inspeção.",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 156,
+                    "txtAlternative01": "Atrasado acima de 30 minutos, pátio e estacionamento cheios.",
+                    "txtAlternative02": "Reagendar a Inspeção.",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 3
+                },
+                {
+                    "idAlternative": 157,
+                    "txtAlternative01": "Não agendado no sistema.",
+                    "txtAlternative02": "Entrega do folheto com informações para o cliente para orientação de agendamento.",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 4
+                }
+            ]
+        },
+        {
+            "idQuestion": 57,
+            "txtQuestion": "Abaixo estão listadas algumas situações com que o assistente de atendimento pode se deparar ao atender um cliente. Relacione a situação com o correto procedimento. Para ligar os quadros, basta clicar em um dos quadros e, em seguida, clicar no quadro correspondente.",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Arrastetexto",
+            "categoryQuestion": "Desafio",
+            "score": 20,
+            "level": 1,
+            "levelDefinition": "Assistente de Atendimento",
+            "tip": "none",
+            "alternatives": [
+                {
+                    "idAlternative": 158,
+                    "txtAlternative01": "Veículo antecipado, pátio e estacionamentos cheios.",
+                    "txtAlternative02": "Retornar no horário agendado.",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 159,
+                    "txtAlternative01": "Veículo antecipado, pátio cheio, mas estacionamento vazio.",
+                    "txtAlternative02": "Aguardar no estacionamento até o horário agendado.",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 160,
+                    "txtAlternative01": "Veículo antecipado e pátio vazio.",
+                    "txtAlternative02": "Apesar de antecipado, pode ir para a linha de inspeção.",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 3
+                },
+                {
+                    "idAlternative": 161,
+                    "txtAlternative01": "Veículo dentro do horário de tolerância.",
+                    "txtAlternative02": "Dirigir-se para a linha de inspeção.",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 4
+                }
+            ]
+        },
+        {
+            "idQuestion": 58,
+            "txtQuestion": "Na recepção de um veículo na guarita, o assistente pode se deparar com um veículo que chegou para fazer a inspeção, mas a placa dele não consta no cadastro. Relacione a ação com a ordem que deve ser realizada. Para ligar os quadros, basta clicar em um dos quadros e, em seguida, clicar no quadro correspondente.",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Arrastetexto",
+            "categoryQuestion": "Desafio",
+            "score": 20,
+            "level": 1,
+            "levelDefinition": "Assistente de Atendimento",
+            "tip": "none",
+            "alternatives": [
+                {
+                    "idAlternative": 162,
+                    "txtAlternative01": "Informa ao cliente que a placa não consta no cadastro e o cliente informa que é da polícia civil.",
+                    "txtAlternative02": "Primeira Etapa",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 163,
+                    "txtAlternative01": "Assistente pede o cartão ou ficha de autorização expedida pela entidade competente.",
+                    "txtAlternative02": "Segunda Etapa",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 164,
+                    "txtAlternative01": "Assistente consulta os modelos para verificação do documento.",
+                    "txtAlternative02": "Terceira Etapa",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 3
+                },
+                {
+                    "idAlternative": 166,
+                    "txtAlternative01": "Liga para a administração, informando a existência de um veículo reservado para inspeção.",
+                    "txtAlternative02": "Quarta Etapa",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 4
+                }
+            ]
+        },
+        {
+            "idQuestion": 59,
+            "txtQuestion": "Ao verificar que o veículo não estava agendado, o assistente pergunta ao cliente se ele realizou o agendamento. O cliente diz que esqueceu de agendar, porém afirma que a tarifa está paga. O que o assistente deve fazer?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 1,
+            "levelDefinition": "Assistente de Atendimento",
+            "tip": "Arlindo, acredito que o assistente de atendimento não tenha autonomia para agendar um horário.",
+            "alternatives": [
+                {
+                    "idAlternative": 167,
+                    "txtAlternative01": "Se o pátio estiver vazio, o assistente pode encaminhar o veículo para a linha de inspeção.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 168,
+                    "txtAlternative01": "O assistente pode tranquilamente agendar a visita do cliente para outro dia.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 169,
+                    "txtAlternative01": "O assistente deve orientar ao cliente que agende um horário, pela internet ou telefone, para inspeção.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 60,
+            "txtQuestion": "Como o assistente de atendimento considera o pátio cheio ou vazio?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 1,
+            "levelDefinition": "Assistente de Atendimento",
+            "tip": "Sei que cada ciclo tem sua medida, mas agora não me lembro dos números exatos.",
+            "alternatives": [
+                {
+                    "idAlternative": 170,
+                    "txtAlternative01": "Cada ciclo tem sua medida para análise de pátio cheio. Em ciclo Otto leve e Motociclo, considera-se pátio cheio quando a fila para inspeção for de 4 veículos por linha na espera. Já para ciclo Diesel leve e Pesado, considera-se cheio quando a fila para inspeção for de 2 veículo por linha na espera.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 171,
+                    "txtAlternative01": "O pátio deve ser considerado cheio quando a fila de carros estiver no limite da guarita.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 172,
+                    "txtAlternative01": "Cada ciclo tem sua medida para análise de pátio cheio. Em ciclo Otto leve e Motociclo, considera-se pátio cheio quando a fila para inspeção for de 2 veículos por linha na espera. Já para ciclo Diesel leve e Pesado, considera-se cheio quando a fila para inspeção for de 1 veículo por linha na espera.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 61,
+            "txtQuestion": "Após a inspeção, o veículo precisa ser retirado do piso azul. Como este procedimento deve ser feito em veículos automáticos?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 1,
+            "levelDefinition": "Assistente de Atendimento",
+            "tip": "Como os carros automáticos são muito sensíveis, não é preciso acelerar neste tipo de veículo.",
+            "alternatives": [
+                {
+                    "idAlternative": 173,
+                    "txtAlternative01": "Em veículos com câmbio automático, o condutor deve colocar o pé direito no freio, colocar na posição \"D\" (1) e soltar levemente o pé do freio, sem a necessidade de acelerar o veículo.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 174,
+                    "txtAlternative01": "Em veículos com câmbio automático, o condutor deve colocar o pé direito no freio, colocar na posição \"P\" e soltar levemente o pé do freio. Em seguida, acelerar o veículo, não chegando a 5km/h.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 175,
+                    "txtAlternative01": "Em veículos com câmbio automático, o condutor deve colocar o pé direito no freio, colocar na posição \"N\" e soltar levemente o pé do freio. Em seguida, acelerar o veículo.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 62,
+            "txtQuestion": "Quem, preferencialmente, deve conduzir os veículos do ciclo Otto Motociclo, ciclo Otto leve, Ciclo Otto pesado e ciclo Diesel para fora do piso azul após a inspeção?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 1,
+            "levelDefinition": "Assistente de Atendimento",
+            "tip": "Eu sei que no ciclo Otto Motociclo é o próprio cliente quem deve conduzir o veículo. Mas nos outros ciclos eu não sei.",
+            "alternatives": [
+                {
+                    "idAlternative": 176,
+                    "txtAlternative01": "Em Motociclos, o assistente técnico deve locomover o veículo para fora do piso azul. Já no ciclo Otto leve é o Inspetor ou assistente técnico que deve conduzi-lo. E no ciclo Otto pesado e Diesel é o próprio cliente que deve dirigir o veículo.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 177,
+                    "txtAlternative01": "Nos ciclos Motociclo, ciclo Otto pesado e ciclo Diesel, o próprio cliente deve locomover o veículo para fora do piso azul. Já no ciclo Otto leve é o Inspetor ou assistente técnico que deve conduzir o veículo.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 178,
+                    "txtAlternative01": "Em todos os ciclos é o próprio cliente que deve, preferencialmente, conduzir o veículo.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 63,
+            "txtQuestion": "Há alguns veículos descaracterizados que realizam a inspeção, mesmo não tendo a placa identificada pelo sistema da Controlar. Quais veículos são eles?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 1,
+            "levelDefinition": "Assistente de Atendimento",
+            "tip": "Arlindo, eu prefiro não arriscar. Não vou opinar.",
+            "alternatives": [
+                {
+                    "idAlternative": 179,
+                    "txtAlternative01": "Veículos pertencentes aos seguintes órgãos: Polícia Civil, Corregedoria Civil, Militar e Detran.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 180,
+                    "txtAlternative01": "Apenas os veículos pertencentes à Polícia Militar.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 181,
+                    "txtAlternative01": "Veículos pertencentes aos seguintes órgãos: Polícia Civil, Corregedoria Civil, Militar e Cetesb.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 64,
+            "txtQuestion": "Qual das ITOs abaixo tratam do relacionamento com o cliente?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 4,
+            "levelDefinition": "ATR",
+            "tip": "Arlindo, eu prefiro não arriscar. Não vou opinar.",
+            "alternatives": [
+                {
+                    "idAlternative": 182,
+                    "txtAlternative01": "ITO-GRG-001/ITO-GRG-011/ITO-GRG-017/ITO-GRG-30",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 183,
+                    "txtAlternative01": "ITO – GRG-002/ITO-GRG-004/ITO- GRG-021/ITO-GRG-025",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 184,
+                    "txtAlternative01": "ITO- GRG-003/ITO-GRG-009/ITO-GRG-010/ITO-GRG-029",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 65,
+            "txtQuestion": "Qual a ITO que trata do relacionamento (entrega do laudo) com o cliente na inspeção de ruído?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 4,
+            "levelDefinition": "ATR",
+            "tip": "Arlindo, eu prefiro não arriscar. Não vou opinar.",
+            "alternatives": [
+                {
+                    "idAlternative": 185,
+                    "txtAlternative01": "ITO-GRG-029",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 186,
+                    "txtAlternative01": "ITO –GRG-025",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 187,
+                    "txtAlternative01": "ITO – GRG-030",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 66,
+            "txtQuestion": "Qual a ITO que trata do relacionamento (entrega do laudo) com o cliente  na Inspeção de gases?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 4,
+            "levelDefinition": "ATR",
+            "tip": "Arlindo, eu prefiro não arriscar. Não vou opinar.",
+            "alternatives": [
+                {
+                    "idAlternative": 188,
+                    "txtAlternative01": "ITO-GRG-021",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 189,
+                    "txtAlternative01": "ITO-GRG-015",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 190,
+                    "txtAlternative01": "ITO-GRG-017",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 67,
+            "txtQuestion": "Qual a ITO que trata do relacionamento com o cliente ao recepcioná-lo na guarita?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 4,
+            "levelDefinition": "ATR",
+            "tip": "Arlindo, eu prefiro não arriscar. Não vou opinar.",
+            "alternatives": [
+                {
+                    "idAlternative": 191,
+                    "txtAlternative01": "ITO-GRG-008",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 192,
+                    "txtAlternative01": "ITO-GRG-004",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 193,
+                    "txtAlternative01": "ITO-GRG-002",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 68,
+            "txtQuestion": "Após identificar que o equipamento está danificado na linha de inspeção, como devemos proceder?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 5,
+            "levelDefinition": "ATP",
+            "tip": "Arlindo, eu prefiro não arriscar. Não vou opinar.",
+            "alternatives": [
+                {
+                    "idAlternative": 194,
+                    "txtAlternative01": "Informar o gerente/supervisor e fechar a linha.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 195,
+                    "txtAlternative01": "Abrir FCM e um chamado no OCOMON, e segregar o equipamento.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 196,
+                    "txtAlternative01": "Trocar o equipamento imediatamente.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 69,
+            "txtQuestion": "De acordo com a manutenção do Centro de Inspeção, quantos AVL-DISPEED (módulo)  devemos ter no  proposto? Qual a sua localização?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 5,
+            "levelDefinition": "ATP",
+            "tip": "Arlindo, eu prefiro não arriscar. Não vou opinar.",
+            "alternatives": [
+                {
+                    "idAlternative": 197,
+                    "txtAlternative01": "Total de 3 AVL-DISPEED /localizado no  PRP-01-02.B.00",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 198,
+                    "txtAlternative01": "Total de 2 AVL- DISPEED /localizado no  PRP-01-04.A.05",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 199,
+                    "txtAlternative01": "Total de 0 AVL-DISPEED /localizado no PRP-01-06.A.03",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 70,
+            "txtQuestion": "Dos produtos/equipamentos abaixo, quais são isocríticos e estratégicos?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 5,
+            "levelDefinition": "ATP",
+            "tip": "Arlindo, eu prefiro não arriscar. Não vou opinar.",
+            "alternatives": [
+                {
+                    "idAlternative": 200,
+                    "txtAlternative01": "Analisador de gases/ Tacômetro/ Impressora Zebra.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 201,
+                    "txtAlternative01": "Selos para impressão/ bobinas de laudos/ Ribbons.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 202,
+                    "txtAlternative01": "Tacômetro/ Analisador de gases/ Mangueiras de ar-comprimido.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 71,
+            "txtQuestion": "Qual o número do registro que devemos preencher quando ocorre uma atualização de Software?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 5,
+            "levelDefinition": "ATP",
+            "tip": "Arlindo, eu prefiro não arriscar. Não vou opinar.",
+            "alternatives": [
+                {
+                    "idAlternative": 203,
+                    "txtAlternative01": "RG-GEM – 058",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 204,
+                    "txtAlternative01": "RG-GEM- 027",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 205,
+                    "txtAlternative01": "RG-GRG- 009",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 72,
+            "txtQuestion": "Abaixo estão algumas fotos relacionadas ao funcionamento do motor e foram tiradas de veículos que realizaram a inspeção veicular em algum centro de inspeção da Controlar. Relacione cada foto com o correto diagnóstico. Para ligar os quadros, basta clicar em um dos quadros e, em seguida, clicar no quadro correspondente.",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "ArrasteImagem",
+            "categoryQuestion": "Desafio",
+            "score": 20,
+            "level": 3,
+            "levelDefinition": "Inspetor",
+            "tip": "none",
+            "alternatives": [
+                {
+                    "idAlternative": 206,
+                    "txtAlternative01": "none",
+                    "txtAlternative02": "Luz indicadora do óleo do motor acesa durante a aceleração a 2500rpm +-300rpm.",
+                    "imgAlternative": "motor_01.png",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 207,
+                    "txtAlternative01": "none",
+                    "txtAlternative02": "Luz indicadora acesa ou instrumento do painel indicando temperatura do motor acima do normal.",
+                    "imgAlternative": "motor_02.png",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 208,
+                    "txtAlternative01": "none",
+                    "txtAlternative02": "Falta de combustível para realização do teste.",
+                    "imgAlternative": "motor_03.png",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 3
+                },
+                {
+                    "idAlternative": 209,
+                    "txtAlternative01": "none",
+                    "txtAlternative02": "Emissão de fumaça visível.",
+                    "imgAlternative": "motor_04.png",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 4
+                }
+            ]
+        },
+        {
+            "idQuestion": 73,
+            "txtQuestion": "Abaixo estão algumas fotos relacionadas ao sistema de escapamento e foram tiradas de veículos que realizaram a inspeção veicular em algum centro de inspeção da Controlar. Relacione cada foto com o correto diagnóstico. Para ligar os quadros, basta clicar em um dos quadros e, em seguida, clicar no quadro correspondente.",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "ArrasteImagem",
+            "categoryQuestion": "Desafio",
+            "score": 20,
+            "level": 3,
+            "levelDefinition": "Inspetor",
+            "tip": "none",
+            "alternatives": [
+                {
+                    "idAlternative": 210,
+                    "txtAlternative01": "none",
+                    "txtAlternative02": "Veículo Rejeitado, pois escapamento reparado com soldas irregulares não garante vedação.",
+                    "imgAlternative": "escapamento_01.png",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 211,
+                    "txtAlternative01": "none",
+                    "txtAlternative02": "Veículo Rejeitado, pois possui escapamento com dois ou mais abafadores unidos.",
+                    "imgAlternative": "escapamento_02.png",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 212,
+                    "txtAlternative01": "none",
+                    "txtAlternative02": "Veículo Aprovado, pois a aparente anormalidade é decorrência de algum objeto que acidentalmente \"grudou\" no escapamento e derreteu.",
+                    "imgAlternative": "escapamento_03.png",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 3
+                },
+                {
+                    "idAlternative": 213,
+                    "txtAlternative01": "none",
+                    "txtAlternative02": "Veículo aprovado, pois apesar de apresentar pontos de corrosão, não apresenta vazamento.",
+                    "imgAlternative": "escapamento_04.png",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 4
+                }
+            ]
+        },
+        {
+            "idQuestion": 74,
+            "txtQuestion": "Na medição de gases, qual valor causa reprovação pelo fator diluição em veículos Otto Motociclo?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 3,
+            "levelDefinition": "Inspetor",
+            "tip": "Arlindo, eu prefiro não arriscar. Não vou opinar.",
+            "alternatives": [
+                {
+                    "idAlternative": 214,
+                    "txtAlternative01": "Maior que 2,5.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 215,
+                    "txtAlternative01": "Menor que 2,5.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 216,
+                    "txtAlternative01": "Maior que 1,5.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 76,
+            "txtQuestion": "Um caminhão foi sorteado pelo sistema para realizar o teste de inspeção de ruído. Quando estava se dirigindo à fila destinada para esta medição, começou uma chuva muito forte, chegando a cair granizo. O que o Inspetor deve orientar ao motorista do caminhão?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 3,
+            "levelDefinition": "Inspetor",
+            "tip": "O motorista receberá o relatório mesmo que não tenha realizado o teste de ruído devido à chuva.",
+            "alternatives": [
+                {
+                    "idAlternative": 217,
+                    "txtAlternative01": "A inspeção de ruído deve ser realizada mesmo com chuvas muito fortes.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 218,
+                    "txtAlternative01": "Ele dispensa da medição de ruído, pois não é possível realizá-la com chuvas fortes.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 219,
+                    "txtAlternative01": "Ele deve dizer ao motorista que a inspeção de ruído foi cancelada, mas ele deve agendar outro dia para realizá-la.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 77,
+            "txtQuestion": "O Inspetor estava finalizando a inspeção de um carro da marca General Motors (GM), do ano de 1996, quando notou que o carro estava sem o Catalisador. O primeiro pensamento foi de reprovar o veículo. Ele estaria agindo de maneira correta?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 3,
+            "levelDefinition": "Inspetor",
+            "tip": "Eu sei que cada marca tem uma data certa para a obrigatoriedade do catalisador. Acho que a da GM é do ano de 1998 mesmo.",
+            "alternatives": [
+                {
+                    "idAlternative": 224,
+                    "txtAlternative01": "Sim, pois o catalisador é peça fundamental para a melhoria na qualidade do ar. Ele é um dispositivo termoquímico que converte os gases nocivos do sistema de escapamento dos veículos em gases inofensivos ao meio ambiente.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 225,
+                    "txtAlternative01": "Não, pois os modelos da GM anteriores a 1998 não possuem a obrigatoriedade de terem o catalisador.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 226,
+                    "txtAlternative01": "Não, pois o catalisador é peça fundamental para todos os veículos a partir de 1997.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 78,
+            "txtQuestion": "Na inspeção de um veículo Ford 76, não foi encontrada nenhuma irregularidade, exceto a ausência do Sistema de Ventilação Positiva do Cárter (PCV). O Inspetor deve reprovar o carro?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 3,
+            "levelDefinition": "Inspetor",
+            "tip": "Eu sei que cada marca tem uma data certa para a obrigatoriedade do PCV, mas não sei o ano certo.",
+            "alternatives": [
+                {
+                    "idAlternative": 227,
+                    "txtAlternative01": "Não, pois apenas modelos fabricados a partir de 1978 têm a obrigatoriedade da presença do PCV.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 228,
+                    "txtAlternative01": "Sim, pois este quadro se encaixa como rejeição por item faltante.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 229,
+                    "txtAlternative01": "Sim, pois modelos fabricados a partir de 1975 têm a obrigatoriedade da presença do PCV.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 79,
+            "txtQuestion": "Os veículos do Ciclo Otto que são equipados com sistema GNV devem realizar um procedimento diferente dos outros veículos do Ciclo. Qual seria este procedimento, que deve ser informado pelo assistente de atendimento na guarita?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 3,
+            "levelDefinition": "Inspetor",
+            "tip": "Veículos com GNV devem deixar o veículo em funcionamento no GNV, mas não sei o procedimento certo.",
+            "alternatives": [
+                {
+                    "idAlternative": 230,
+                    "txtAlternative01": "O assistente deve orientar o motorista a escolher com qual combustível ele gostaria de realizar a inspeção.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 231,
+                    "txtAlternative01": "O assistente deve orientar o motorista a deixar o veículo em funcionamento no GNV e ligar o farol alto antes de ir para o pátio de espera e selecionar uma linha de preferência para realizar a inspeção.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 232,
+                    "txtAlternative01": "O assistente deve orientar o motorista a deixar o veículo em funcionamento no GNV e ligar o pisca-alerta antes de ir para o pátio de espera.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 80,
+            "txtQuestion": "Em uma inspeção de veículo Otto leve, o inspetor e assistente terminaram a inspeção e não encontraram nenhuma irregularidade. O inspetor imprimiu o relatório e colou o selo no para-brisa do carro.  Mas quando voltaram para o piso azul, viram que tinha uma gota de óleo lubrificante. Como o inspetor deve proceder?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 3,
+            "levelDefinition": "Inspetor",
+            "tip": "O selo não pode ser descolado do veículo, então, não tem como o veículo ser reprovado após a colocação do selo.",
+            "alternatives": [
+                {
+                    "idAlternative": 233,
+                    "txtAlternative01": "O inspetor deve chamar o veículo de volta e reprová-lo.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 234,
+                    "txtAlternative01": "Uma vez que foi colocado o selo e dado o relatório, a aprovação não pode ser cancelada.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 235,
+                    "txtAlternative01": "O inspetor deve solicitar uma nova inspeção para aquele veículo.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 83,
+            "txtQuestion": "Em veículos do ciclo Otto leve, a identificação de fumaça visível é feita pelo Inspetor que precisa do auxílio do assistente técnico. Este assistente deve operar o pedal de acelerador. Como este procedimento deve ser realizado?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 3,
+            "levelDefinition": "Inspetor",
+            "tip": "O assistente não deve acelerar até o final do curso do acelerador para medir a fumaça visível, apenas até a metade.",
+            "alternatives": [
+                {
+                    "idAlternative": 236,
+                    "txtAlternative01": "Ele deve acelerar até identificar fumaça visível.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 237,
+                    "txtAlternative01": "Ele deve acelerar por três vezes até a metade do curso do acelerador.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 238,
+                    "txtAlternative01": "Ele deve acelerar por três vezes até o final do curso do acelerador.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 84,
+            "txtQuestion": "Em veículos do ciclo Otto Motociclo, a identificação de fumaça visível é feita pelo Inspetor. Como este procedimento deve ser realizado?",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Quiz",
+            "categoryQuestion": "ITO",
+            "score": 15,
+            "level": 3,
+            "levelDefinition": "Inspetor",
+            "tip": "Arlindo, eu prefiro não arriscar. Não vou opinar.",
+            "alternatives": [
+                {
+                    "idAlternative": 239,
+                    "txtAlternative01": "Ele deve acelerar por três vezes até a meia-volta do acelerador.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 240,
+                    "txtAlternative01": "Ele não deve acelerar, pois no ciclo Otto motociclo a análise de gás é feita somente em marcha lenta.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 241,
+                    "txtAlternative01": "Ele deve acelerar por três vezes, fazendo a volta inteira do acelerador.",
+                    "txtAlternative02": "none",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": 0,
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "idQuestion": 85,
+            "txtQuestion": "Abaixo estão listados alguns documentos (legislação) referentes ao trabalho realizado pela Controlar. Relacione estes documentos com seus respectivos órgãos emissores. Para ligar os quadros, basta clicar em um dos quadros e, em seguida, clicar no quadro correspondente.",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Arrastetexto",
+            "categoryQuestion": "Desafio",
+            "score": 20,
+            "level": 4,
+            "levelDefinition": "ATR",
+            "tip": "none",
+            "alternatives": [
+                {
+                    "idAlternative": 242,
+                    "txtAlternative01": "Portaria nº06",
+                    "txtAlternative02": "SVMA",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 243,
+                    "txtAlternative01": "Resolução nº418",
+                    "txtAlternative02": "CONAMA",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 244,
+                    "txtAlternative01": "Instrução Normativa nº6",
+                    "txtAlternative02": "IBAMA",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 3
+                },
+                {
+                    "idAlternative": 245,
+                    "txtAlternative01": "ITO",
+                    "txtAlternative02": "CONTROLAR",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 4
+                }
+            ]
+        },
+        {
+            "idQuestion": 86,
+            "txtQuestion": "Abaixo estão listados algumas Instruções de Trabalho Operacional (ITO). Relacione cada ITO com o assunto que ela aborda. Para ligar os quadros, basta clicar em um dos quadros e, em seguida, clicar no quadro correspondente.",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Arrastetexto",
+            "categoryQuestion": "Desafio",
+            "score": 20,
+            "level": 4,
+            "levelDefinition": "ATR",
+            "tip": "none",
+            "alternatives": [
+                {
+                    "idAlternative": 246,
+                    "txtAlternative01": "ITO-GRG-002",
+                    "txtAlternative02": "ITO que trata do relacionamento com o cliente ao recepcioná-lo na guarita.",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 247,
+                    "txtAlternative01": "ITO-GRG-021",
+                    "txtAlternative02": "ITO que trata do relacionamento (entrega do laudo) com o cliente  na Inspeção de gases.",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 248,
+                    "txtAlternative01": "ITO-GRG-025",
+                    "txtAlternative02": "ITO que trata do relacionamento (entrega do laudo) com o cliente na inspeção de ruído.",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 3
+                },
+                {
+                    "idAlternative": 249,
+                    "txtAlternative01": "ITO-GRG-004",
+                    "txtAlternative02": "ITO que trata do relacionamento com o cliente ao recepcioná-lo na fila de espera.",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 4
+                }
+            ]
+        },
+        {
+            "idQuestion": 87,
+            "txtQuestion": "Abaixo estão listadas algumas RG-GEM (Registro da Gerência de Engenharia e Manutenção) e  RG-GRG (Registro da Gerência Regional). Relacione cada uma delas com a frequência com que devem ser realizadas. Para ligar os quadros, basta clicar em um dos quadros e, em seguida, clicar no quadro correspondente.",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Arrastetexto",
+            "categoryQuestion": "Desafio",
+            "score": 20,
+            "level": 5,
+            "levelDefinition": "ATP",
+            "tip": "none",
+            "alternatives": [
+                {
+                    "idAlternative": 250,
+                    "txtAlternative01": "RG-GEM – 014 Check-list do compressor",
+                    "txtAlternative02": "Diário",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 251,
+                    "txtAlternative01": "RG-GEM – 004 Controle de temperatura do CPD",
+                    "txtAlternative02": "Quatro vezes ao dia",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 252,
+                    "txtAlternative01": "RG-GRG – 036 Rotina diário de tutoria",
+                    "txtAlternative02": "Duas vezes ao dia",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 3
+                },
+                {
+                    "idAlternative": 253,
+                    "txtAlternative01": "RG – GEM – 015 Check-list gerador e no break Com carga",
+                    "txtAlternative02": "Semanal",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 4
+                }
+            ]
+        },
+        {
+            "idQuestion": 88,
+            "txtQuestion": "Abaixo estão listados alguns problemas que o Analista Técnico de Processo pode se deparar no dia a dia do trabalho. Relacione cada problema com a correta documentação a ser preenchida. Para ligar os quadros, basta clicar em um dos quadros e, em seguida, clicar no quadro correspondente.",
+            "imgQuestion": "sem imagem",
+            "soundQuestion": "Som01",
+            "typeQuestion": "Arrastetexto",
+            "categoryQuestion": "Desafio",
+            "score": 20,
+            "level": 5,
+            "levelDefinition": "ATP",
+            "tip": "none",
+            "alternatives": [
+                {
+                    "idAlternative": 254,
+                    "txtAlternative01": "Quebra de termômetro",
+                    "txtAlternative02": "FCM",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 1
+                },
+                {
+                    "idAlternative": 255,
+                    "txtAlternative01": "Quebra de analisador",
+                    "txtAlternative02": "BIP",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 2
+                },
+                {
+                    "idAlternative": 256,
+                    "txtAlternative01": "Problema de start-up",
+                    "txtAlternative02": "OCOMON",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 3
+                },
+                {
+                    "idAlternative": 257,
+                    "txtAlternative01": "Quebra de espelho",
+                    "txtAlternative02": "KANBAN eletrônico",
+                    "imgAlternative": "sem imagem",
+                    "soundAlternative": "Som01",
+                    "feedback": {
+                        "txt": "Parabens",
+                        "action": null
+                    },
+                    "correct": -1,
+                    "order": 4
+                }
+            ]
+        }
+    ]
+}
+}

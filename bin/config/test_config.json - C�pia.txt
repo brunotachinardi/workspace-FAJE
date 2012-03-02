@@ -1,0 +1,450 @@
+{
+    "states": [
+        {
+            "type": "ComponentState",
+            "spec": {
+                "name": "Main",
+                "transitions": [
+                    {
+                        "to": "tela_2",
+                        "event": "next_button_1_click"
+                    }
+                ],
+                "components": [
+                    {
+                        "name": "next_bt1"
+                    },
+                    {
+                        "name": "anima_chamada"
+                    },
+                    {
+                        "name": "layout_group"
+                    },
+                    {
+                        "name": "arlindo_frente_slide03"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "ComponentState",
+            "spec": {
+                "name": "tela_2",
+                "transitions": [
+                    {
+                        "to": "tela_4",
+                        "event": "next_button_1_click"
+                    }
+                ],
+                "components": [
+                    {
+                        "name": "next_bt1"
+                    },
+                    {
+                        "name": "layout_group"
+                    },
+                    {
+                        "name": "arlindo_frente_slide03"
+                    },
+                    {
+                        "name": "balao_fala_arlindo"
+                    },
+                    {
+                        "name": "scene_palco_tela_02"
+                    }
+                ],
+                "events": {
+                    "enter": [
+                        {
+                            "command": "SetTextByFeed",
+                             "spec": {
+                                "variable": "Arlindo",
+                                "feed": "slide_2"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "ComponentState",
+            "spec": {
+                "name": "tela_4",
+                "transitions": [
+                    {
+                        "to": "tela_5",
+                        "event": "initial_animation_end"
+                    }
+                ],
+                "components": [
+                    {
+                        "name": "layout_group"
+                    },
+                    {
+                        "name": "initial_animation"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "ComponentState",
+            "spec": {
+                "name": "tela_5",
+                "transitions": [
+                    {
+                        "to": "tela_6",
+                        "event": "initial_animation_end"
+                    }
+                ],
+                "components": [
+                    {
+                        "name": "layout_group"
+                    },
+                    {
+                        "name": "initial_animation"
+                    }
+                ]
+            }
+        }
+    ],
+    "components": [
+        {
+            "type": "Animation",
+            "spec": {
+                "name": "initial_animation",
+                "image": "initial_animation",
+                "defaultDisplayProperties" : "initial_animation_dp",
+                "end": "initial_animation_end"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "bottom_layer",
+                "defaultDisplayProperties": "bottom_layer_dp",
+                "image": "layout_bottom"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "layout_graphic",
+                "defaultDisplayProperties": "layout_dp",
+                "image": "layout_barra"
+            }
+        },
+        {
+            "type": "TrackerBar",
+            "spec": {
+                "name": "player_progress_bar",
+                "defaultDisplayProperties": "player_progress_bar_dp",
+                "bg": "carro_bg",
+                "border": "carro_borda",
+                "bar": "carro_barra",
+                "target": "Points",
+                "defaultMaximum": 450
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "palco_bg_1",
+                "defaultDisplayProperties": "background_dp",
+                "image": "novo_palco"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "scene_palco_tela_02",
+                "image": "scene_palco_slide03",
+                "defaultDisplayProperties" : "background_dp"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "arlindo_frente_slide03",
+                "image": "arlindo_frente_slide03"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "anima_chamada",
+                "image": "anima_chamada"
+            }
+        },
+        {
+            "type": "TrackerText",
+            "spec": {
+                "name": "points_text",
+                "defaultDisplayProperties": "points_text_dp",
+                "textProperties": "points_text_tp",
+                "target": "Points",
+                "sufix": " Pontos",
+                "format": "comma"
+            }
+        },
+        {
+            "type": "TrackerText",
+            "spec": {
+                "name": "step_text",
+                "defaultDisplayProperties": "step_text_dp",
+                "textProperties": "step_text_tp",
+                "target": "Step",
+                "prefix": "Etapa ",
+                "format": "comma"
+            }
+        },
+        {
+            "type": "TrackerText",
+            "spec": {
+                "name": "time_text",
+                "defaultDisplayProperties": "time_text_dp",
+                "textProperties": "time_text_tp",
+                "target": "Time",
+                "prefix": "Tempo ",
+                "format": "time_minutes"
+            }
+        },
+        {
+            "type": "Button",
+            "spec": {
+                "name": "next_bt1",
+                "defaultDisplayProperties": "next_bt_1_dp",
+                "normal": "btn_next_1_normal",
+                "over": "btn_next_1_over",
+                "clicked": "btn_next_1_pressed",
+                "message": "next_button_1_click"
+            }
+        },
+        {
+            "type": "Button",
+            "spec": {
+                "name": "next_bt2",
+                "normal": "btn_avancar2_habilitado",
+                "over": "btn_avancar2_over",
+                "clicked": "btn_avancar2_pressed"
+            }
+        },
+        {
+            "type": "Button",
+            "spec": {
+                "name": "back_bt2",
+                "normal": "btn_voltar2_habilitado",
+                "over": "btn_voltar2_over",
+                "clicked": "btn_voltar2_pressed",
+                "message": "back_button_2_click"
+            }
+        },
+        {
+            "type": "TextBox",
+            "spec": {
+                "name": "balao_fala_arlindo",
+                "text": "Este texto não deveria estar aparecendo",
+                "variable": "Arlindo",
+                "image": "arlindo_balao_fala",
+                "defaultDisplayProperties": "arlindo_balao_fala_dp",
+                "textProperties" : "balao_fala_arlindo_tp"
+            }
+        },
+        {
+            "type": "ComponentsContainer",
+            "spec": {
+                "name": "layout_group",
+                "components": [
+                    {
+                        "name": "points_text"
+                    },
+                    {
+                        "name": "layout_graphic"
+                    },
+                    {
+                        "name": "player_progress_bar"
+                    },
+                    {
+                        "name": "step_text"
+                    },
+                    {
+                        "name": "time_text"
+                    },
+                    {
+                        "name": "layout_background"
+                    }
+                ]
+            }
+        }
+    ],
+    "displayProperties": [
+        {
+            "name": "default",
+            "x": 0,
+            "y": 0,
+            "depth": 0
+        },
+        {
+            "name": "layout_dp",
+            "x": 0,
+            "y": 0,
+            "depth": 1000
+        },
+        {
+            "name": "player_progress_bar_dp",
+            "x": 590,
+            "y": 42,
+            "depth": 1001
+        },
+        {
+            "name": "background_dp",
+            "x": 0,
+            "y": 0,
+            "depth": -1000
+        },
+        {
+            "name": "bottom_layer_dp",
+            "x": 0,
+            "y": 0,
+            "depth": -20000
+        },
+        {
+            "name": "points_text_dp",
+            "x": 703,
+            "y": 25,
+            "width": 75,
+            "height": 500,
+            "depth": 1002,
+            "alpha": 0.7
+        },
+        {
+            "name": "step_text_dp",
+            "x": 8,
+            "y": 98,
+            "width": 60,
+            "height": 500,
+            "depth": 1002,
+            "alpha": 0.7
+        },
+        {
+            "name": "time_text_dp",
+            "x": 700,
+            "y": 98,
+            "width": 60,
+            "height": 500,
+            "depth": 1002,
+            "alpha": 0.7
+        },
+        {
+            "name": "next_bt_1_dp",
+            "x": 725,
+            "y": 175,
+            "depth": 2000
+        },
+        {
+            "name": "text_box_dp",
+            "x": 300,
+            "y": 250,
+            "width": 200,
+            "height": 75,
+            "depth": 1002
+        },
+        {
+            "name": "text_dp_2",
+            "x": 300,
+            "y": 250,
+            "width": 200,
+            "height": 75,
+            "depth": 1002
+        },
+        {
+            "name": "arlindo_balao_fala_dp",
+            "x": 500,
+            "y": 235,
+            "depth": 1002
+        },
+        {
+            "name": "initial_animation_dp",
+            "x": 0,
+            "y": 0,
+            "width" : 784,
+            "height" : 530, 
+            "depth": -1000
+        }
+    ],
+    "textProperties": [
+        {
+            "name": "points_text_tp",
+            "font": "EurostileRegular",
+            "align": "right",
+            "textColor": 5592456,
+            "size": 20
+        },
+        {
+            "name": "step_text_tp",
+            "font": "EurostileRegular",
+            "align": "center",
+            "textColor": 5592456,
+            "size": 18
+        },
+        {
+            "name": "time_text_tp",
+            "font": "EurostileRegular",
+            "align": "center",
+            "textColor": 5592456,
+            "size": 18
+        },
+        {
+		    "name": "balao_fala_arlindo_tp",
+		    "textColor": 1915233,
+		    "font": "EurostileRegular",
+		    "spacingX": 20,
+		    "spacingY": 0,
+		    "align": "justify",
+		    "verticalAlign": "center",
+		    "size": 20,
+		    "textOffsetX" : -185,
+		    "textOffsetY" : -125
+        }
+    ],
+    "variables": [
+        {
+            "name": "Step",
+            "start": 1,
+            "max": 3,
+            "min": 1
+        },
+        {
+            "name": "Points",
+            "start": 0,
+            "max": 450
+        },
+        {
+            "name": "Time",
+            "start": 2400,
+            "max": 2400
+        },
+        {
+            "name": "QuestionsAnswered",
+            "start": 0,
+            "max": 22
+        }
+    ],
+    "texts": {
+	    "slide_2": "Parabéns! Você foi selecionado para me acompanhar no palco do programa. Está preparado? Mas antes de irmos ao estúdio, veja a breve explicação de como você deve jogar. Clique no botão 'Tutorial' abaixo.",
+	    "slide_5": "Sejam todos muito bem-vindos ao Show do Arlindo! Hoje com uma edição especial dedicada a Controlar. Você está preparado para ganhar o carro dos sonhos?",
+	    "slide_6": "Para aquecer, vamos ao primeiro quadro chamado Alinhando Conhecimentos e isso por que vamos ver se você está alinhado aos conceitos da Controlar. Clique no telão para responder o quiz.",
+	    "slide_8": "Muito bem, viu como o programa funciona? Muito simples, não é? Na sequencia teremos questões valendo 15 pontos.",
+	    "slide_9": "Trata-se do quadro Auto Teste. Agora sim vamos ver o quanto você sabe sobre os procedimentos realizados nos postos da Controlar. Clique novamente no telão para responder ao quiz. E desta vez você contará com a ajuda da platéia.",
+	    "slide_11": "Ei, antes de continuar respondendo as questões do Auto Teste, vamos dar uma pausa para os intervalos comerciais e voltamos já! Não desgrude da telinha.",
+	    "slide_12": "Boa tarde!  Você que está curtindo o Show do Arlindo não perca na sequência o nosso Jornal, que hoje trará uma matéria especial sobre a poluição do ar. Isso mesmo! Vamos mostrar como o ar de São Paulo está mais gostoso de respirar. Até mais!",
+	    "slide_13": "Vamos continuar com as questões de Auto Teste. Só que desta vez você contará com a ajuda dos nossos convidados, os universitários.",
+	    "slide_15": "Chegamos ao final de mais um quadro. Opa, a produção me comunicou algo aqui, estou escutando.",
+	    "slide_16": "Produção, estamos com uma chamada externa? É isso mesmo. Segue com você, Amanda.",
+	    "slide_17": "Oi Arlindo! Estamos falando diretamente do posto de inspeção, onde será realizada a segunda etapa do desafio Carro dos Sonhos. Preciso fazer uma matéria sobre a Controlar, será que seu convidado pode me ajudar a responder algumas perguntinhas?",
+	    "slide_19": "Muito obrigada pela ajuda. Voltamos aí para o estúdio com você, Arlindo. Até mais!",
+	    "slide_20": "Até mais, Amanda. Agora vamos com...",
+	    "slide_22": "É isso mesmo, jogador! Você irá enfrentar um grande desafio agora e poderá ganhar até 80 pontos respondendo as perguntas a seguir. É a chance de você acumular mais pontos. Vamos lá?",
+	    "slide_24": "Ufa! Quantas questões difíceis. Estamos chegando ao fim do programa, vamos ver o seu desempenho? Clique em ‘Avançar’.",
+	    "slide_28": "E aqui acaba mais um Show do Arlindo. E fique ligado que em breve teremos mais um encontro, desta vez em um posto da Controlar, na segunda fase. Até mais!"
+	}
+}

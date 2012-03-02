@@ -1,0 +1,380 @@
+﻿{
+    "components": [
+        {
+            "type": "Button",
+            "spec": {
+                "name": "tut_connect_quiz_connect_text_button",
+                "normal": "connect_quiz_connect_text_disabled",
+                "pressedSound": "bt_down_sound",
+                "activeNormal": "connect_quiz_connect_text_enabled",
+                "activeNormalTextProperties": "tut_connect_quiz_connect_text_button_tp"
+            }
+        },
+        {
+            "type": "Button",
+            "spec": {
+                "name": "tut_connect_quiz_text_button",
+                "normal": "tut_connect_quiz_text_box",
+                "pressedSound": "bt_down_sound",
+                "normalTextProperties": "tut_connect_quiz_text_button_tp"
+            }
+        },
+        {
+            "type": "TextBox",
+            "spec": {
+                "name": "tut_connect_quiz_title_text",
+                "defaultDisplayProperties": "tut_connect_quiz_title_text_dp",
+                "image": "tut_connect_quiz_title_text",
+                "textProperties": "tut_connect_quiz_title_text_tp"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "tut_connect_quiz_text_group_background",
+                "image": "tut_connect_quiz_text_group_background",
+                "defaultDisplayProperties": "tut_connect_quiz_text_group_background_dp"
+            }
+        },
+        {
+            "type": "Button",
+            "spec": {
+                "name": "tut_connect_quiz_confirm_button",
+                "defaultDisplayProperties": "tut_connect_quiz_confirm_bt_dp",
+                "normal": "quiz_go_button_up",
+                "over": "quiz_go_button_over",
+                "down": "quiz_go_button_down",
+                "overSound": "bt_over_sound",
+                "pressedSound": "bt_down_sound",
+                "disabled": "quiz_go_button_disabled"
+            }
+        },
+        {
+            "type": "ConnectQuiz",
+            "spec": {
+                "name": "tut_connect_quiz",
+                "defaultDisplayProperties": "tut_connect_quiz_dp",
+                "behaviour": "weak",
+                "numOfAlternatives": 4,
+                "titleText": "tut_connect_quiz_title_text",
+                "confirmButton": "tut_connect_quiz_confirm_button",
+                "confirmButtonDisplayProperties": "tut_connect_quiz_confirm_button_dp",
+                "textButton": "tut_connect_quiz_text_button",
+                "textGroupBackgroundImage": "tut_connect_quiz_text_group_background",
+                "connectButton": "tut_connect_quiz_connect_text_button",
+                "gridMaxCollumns": 4,
+                "textGridXDistance": 106,
+                "firstGridX": 10,
+                "firstGridY": 80,
+                "secondGridX": 10,
+                "secondGridY": 225,
+                "firstConnectOffsetX": 33,
+                "firstConnectOffsetY": 50,
+                "secondConnectOffsetX": 33,
+                "secondConnectOffsetY": -20,
+                "drag": false,
+                "connectSound": "connect_sound"
+            }
+        },
+        {
+            "type": "Button",
+            "spec": {
+                "name": "tut_quiz_alternative_button",
+                "normal": "tut_quiz_text_button_normal",              
+                "pressedSound": "bt_down_sound",
+                "activeNormal" : "tut_quiz_text_button_active",
+				"normalTextProperties": "tut_quiz_text_button_normal_tp",
+                "activeNormalTextProperties" : "tut_quiz_text_button_active_tp"
+            }
+        },
+        {
+            "type": "TextBox",
+            "spec": {
+                "name": "tut_quiz_title_text",
+                "defaultDisplayProperties" : "tut_quiz_title_text_dp",
+                "image": "tut_quiz_title_box",
+                "textProperties" : "tut_quiz_title_text_tp"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "tut_quiz_background_image",
+                "image": "tut_quiz_background"
+            }
+        },
+        {
+            "type": "Button",
+            "spec": {
+                "name": "tut_quiz_confirm_button",
+                "defaultDisplayProperties" : "tut_quiz_confirm_bt_dp",
+                "normal": "quiz_go_button_up",
+                "over": "quiz_go_button_over",
+                "down": "quiz_go_button_down",
+                "overSound": "bt_over_sound",                
+                "pressedSound": "bt_down_sound",
+                "disabled" : "quiz_go_button_disabled"
+            }
+        },
+        {
+            "type": "MultiAlternativeQuiz",
+            "spec": {
+                "name": "tut_quiz",
+                "defaultDisplayProperties" : "tut_quiz_dp",
+                "behaviour" : "weak",
+                "numOfAlternatives" : 3,
+                "titleText": "tut_quiz_title_text",                
+                "alternativeButton": "tut_quiz_alternative_button",
+                "backgroundImage" : "tut_quiz_background_image",
+                "confirmButton" : "tut_quiz_confirm_button",
+                "alternativesGridX" : 15,
+                "alternativesGridY" : 115,
+                "alternativesGridYDistance" : 55
+            }
+        }
+    ],
+    "displayProperties": [
+        {
+            "name": "tut_connect_quiz_dp",
+            "x": 35,
+            "y": 170,
+            "depth": 99999
+        },
+        {
+            "name": "tut_connect_quiz_points_dp",
+            "x": -80,
+            "y": 50
+        },
+        {
+            "name": "tut_connect_quiz_confirm_button_dp",
+            "x": 190,
+            "y": 300
+        },
+        {
+            "name": "tut_connect_quiz_text_group_background_dp",
+            "x": -11,
+            "y": -7
+        },
+        {
+            "name": "tut_connect_quiz_image_group_background_dp",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "name": "tut_quiz_title_text_dp",
+            "x": 10,
+            "y": 42
+        },
+        {
+            "name": "tut_quiz_confirm_bt_dp",
+            "x": 175,
+            "y": 280
+        },
+        {
+            "name": "tut_quiz_dp",
+            "x": 35,
+            "y": 165,
+            "depth" : 10000
+        }
+    ],
+    "textProperties": [
+        {
+            "name": "tut_connect_quiz_text_button_tp",
+            "spacingX": 2,
+            "spacingY": 3,
+            "textOffsetX": -2,
+            "font": "EurostileRegular",
+            "align": "center",
+            "verticalAlign": "center",
+            "textColor": 16777215,
+            "size": 12
+        },
+        {
+            "name": "tut_connect_quiz_title_text_tp",
+            "spacingLeft": 15,
+            "spacingRight": 25,
+            "spacingY": 3,
+            "font": "EurostileRegular",
+            "align": "center",
+            "verticalAlign": "center",
+            "textColor": 1200003,
+            "size": 13
+        },
+        {
+            "name": "tut_connect_quiz_points_text_tp",
+            "spacingRight": 55,
+            "font": "EurostileRegular",
+            "align": "center",
+            "textColor": 1915233,
+            "size": 30
+        },
+        {
+            "name": "tut_connect_quiz_connect_text_button_tp",
+            "spacingX": 2,
+            "spacingY": 2,
+            "font": "EurostileRegular",
+            "align": "center",
+            "textColor": 1915233,
+            "textOffsetX": -1,
+            "textOffsetY": 5,
+            "size": 14
+        },
+        {
+            "name": "tut_quiz_text_button_active_tp",
+            "spacingX" : 5,
+            "spacingY" : 3,
+            "textOffsetX" : -2,
+            "font": "EurostileRegular",
+            "align": "center",
+            "textColor": 16777215,
+            "size": 14
+        },
+        {
+            "name": "tut_quiz_text_button_normal_tp",
+            "spacingX" : 5,
+            "spacingY" : 3,
+            "font": "EurostileRegular",
+            "align": "center",
+            "textColor": 4126,
+            "size": 14
+        },
+        {
+            "name": "tut_quiz_title_text_tp",
+            "spacingLeft" : 5,
+	    	"spacingRight" : 15,
+            "spacingY" : 3,
+            "font": "EurostileRegular",
+            "align": "center",
+            "verticalAlign": "center",
+            "textColor": 1200003,
+            "size": 13
+        }
+    ],
+    "quiz": {
+        "version": {
+            "version": "Version 1.0",
+            "dateVersion": "30/01/2012 00:00:00"
+        },
+        "questions": [
+            {
+                "idQuestion": 791328378,
+                "txtQuestion": "Pergunta",
+                "imgQuestion": "sem imagem",
+                "soundQuestion": "Som01",
+                "typeQuestion": "Quiz",
+                "categoryQuestion": "TutorialQuiz",
+                "score": 0,
+                "level": 1,
+                "levelDefinition": "Assistente de Atendimento",
+                "tip": "Dica da pergunta.\nCuidado, algumas dicas podem ser pegadinhas!",
+                "alternatives": [
+                    {
+                        "idAlternative": 7913283781,
+                        "txtAlternative01": "Alternativa.",
+                        "txtAlternative02": "none",
+                        "imgAlternative": "sem imagem",
+                        "soundAlternative": "Som01",
+                        "feedback": {
+                            "txt": "Parabens",
+                            "action": null
+                        },
+                        "correct": 0,
+                        "order": 1
+                    },
+                    {
+                        "idAlternative": 7913283782,
+                        "txtAlternative01": "Alternativa.",
+                        "txtAlternative02": "none",
+                        "imgAlternative": "sem imagem",
+                        "soundAlternative": "Som01",
+                        "feedback": {
+                            "txt": "Parabens",
+                            "action": null
+                        },
+                        "correct": 0,
+                        "order": 2
+                    },
+                    {
+                        "idAlternative": 7913283783,
+                        "txtAlternative01": "Alternativa.",
+                        "txtAlternative02": "none",
+                        "imgAlternative": "sem imagem",
+                        "soundAlternative": "Som01",
+                        "feedback": {
+                            "txt": "Parabens",
+                            "action": null
+                        },
+                        "correct": 0,
+                        "order": 3
+                    }
+                ]
+            },
+            {
+                "idQuestion": 791328379,
+                "txtQuestion": "Relacione o estado com a denominação da pessoa nascida naquele estado. Para ligar os quadros, basta clicar em um dos quadros e, em seguida, clicar no quadro correspondente.",
+                "imgQuestion": "sem imagem",
+                "soundQuestion": "Som01",
+                "typeQuestion": "Arrastetexto",
+                "categoryQuestion": "TutorialArraste",
+                "score": 0,
+                "level": 1,
+                "levelDefinition": "Assistente de Atendimento",
+                "tip": "Dica da pergunta.\nCuidado, algumas dicas podem ser pegadinhas!",
+                "alternatives": [
+                    {
+                        "idAlternative": 7913283791,
+                        "txtAlternative01": "São Paulo",
+                        "txtAlternative02": "Paulista",
+                        "imgAlternative": "sem imagem",
+                        "soundAlternative": "Som01",
+                        "feedback": {
+                            "txt": "Parabens",
+                            "action": null
+                        },
+                        "correct": -1,
+                        "order": 1
+                    },
+                    {
+                        "idAlternative": 7913283792,
+                        "txtAlternative01": "Minas Gerais",
+                        "txtAlternative02": "Mineiro",
+                        "imgAlternative": "sem imagem",
+                        "soundAlternative": "Som01",
+                        "feedback": {
+                            "txt": "Parabens",
+                            "action": null
+                        },
+                        "correct": -1,
+                        "order": 2
+                    },
+                    {
+                        "idAlternative": 7913283793,
+                        "txtAlternative01": "Rio Grande do Sul",
+                        "txtAlternative02": "Gaúcho",
+                        "imgAlternative": "sem imagem",
+                        "soundAlternative": "Som01",
+                        "feedback": {
+                            "txt": "Parabens",
+                            "action": null
+                        },
+                        "correct": -1,
+                        "order": 3
+                    },
+                    {
+                        "idAlternative": 7913283794,
+                        "txtAlternative01": "Paraná",
+                        "txtAlternative02": "Paranaense",
+                        "imgAlternative": "sem imagem",
+                        "soundAlternative": "Som01",
+                        "feedback": {
+                            "txt": "Parabens",
+                            "action": null
+                        },
+                        "correct": -1,
+                        "order": 4
+                    }
+                ]
+            }
+        ]
+    }
+}

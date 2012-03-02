@@ -1,0 +1,411 @@
+{
+    "states": [
+        {
+            "type": "ComponentState",
+            "spec": {
+                "name": "Main",
+                "transitions": [
+                    {
+                        "to": "tela_1",
+                        "event": "initial_animation_end"
+                    }
+                ],
+                "components": [
+                    {
+                        "name": "initial_animation"
+                    },
+                    {
+                    	"name" : "multi_alternative_quiz"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "ComponentState",
+            "spec": {
+                "name": "tela_1",
+                "transitions": [
+                    {
+                        "to": "tela_2",
+                        "event": "next_button_1_click"
+                    },
+                    {
+                        "to": "tela_1",
+                        "event": "QuizAnswered",
+                        "variable" : { "name" : "QuestionsAnswered", "operation" : "<" , "value" : 3 }
+                    },
+                    {
+                        "to": "tela_2",
+                        "event": "QuizAnswered",
+                        "variable" : { "name" : "QuestionsAnswered", "operation" : ">=" , "value" : 3 }
+                    }
+                ],
+                "components": [
+                    {
+                        "name": "palco_bg_1"
+                    },
+                    {
+                        "name": "layout_group"
+                    },
+                    {
+                        "name": "next_bt1"
+                    },
+                    {
+                        "name": "text_box"
+                    },
+                    {
+                        "name": "initial_animation"
+                    },
+                    {
+                    	"name" : "multi_alternative_quiz"
+                    }
+                ],
+                "events": {
+                    "enter": [
+                        {
+                            "command": "CreateTimer",
+                            "spec": {
+                                "name": "GameTimer",
+                                "autoPlay": true
+                            }
+                        },
+                        {
+                            "command": "RegisterTimerTickOp",
+                            "spec": {
+                                "timer": "GameTimer",
+                                "variable": "Time",
+                                "value": -1
+                            }
+                        },
+                        {
+                            "command": "SetTextByFeed",
+                            "spec": {
+                                "variable": "Arlindo",
+                                "feed": "text0"
+                            }
+                        },
+                        {
+                            "command": "SetQuizByRandomFeed",
+                            "spec": {
+                                "target": "multi_alternative_quiz",
+                                "maxLevel" : 1,
+                                "category" : "ITO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "ComponentState",
+            "spec": {
+                "name": "tela_2",
+                "transitions": [
+                    {
+                        "to": "tela_1",
+                        "event": "next_button_1_click"
+                    }
+                ],
+                "components": [
+                    {
+                        "name": "layout_group"
+                    },
+                    {
+                        "name": "next_bt1"
+                    },
+                    {
+                        "name": "text_box",
+                        "diplayProperties" : "text_dp_2"
+                    }
+                ],
+                "events": {
+                    "enter": [
+                        {
+                            "command": "SetTextByFeed",
+                            "spec": {
+                                "variable": "Arlindo",
+                                "feed": "text1"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "components": [
+        {
+            "type": "Animation",
+            "spec": {
+                "name": "initial_animation",
+                "image": "initial_animation",
+                "end" : "initial_animation_end"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "bottom_layer",
+                "defaultDisplayProperties": "bottom_layer_dp",
+                "image": "layout_bottom"
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "layout_graphic",
+                "defaultDisplayProperties": "layout_dp",
+                "image": "layout_barra"
+            }
+        },
+        {
+            "type": "TrackerBar",
+            "spec": {
+                "name": "player_progress_bar",
+                "defaultDisplayProperties": "player_progress_bar_dp",
+                "bg": "carro_bg",
+                "border": "carro_borda",
+                "bar": "carro_barra",
+                "target": "Points",
+                "defaultMaximum": 450
+            }
+        },
+        {
+            "type": "Graphic",
+            "spec": {
+                "name": "palco_bg_1",
+                "defaultDisplayProperties": "background_dp",
+                "image": "novo_palco"
+            }
+        },
+        {
+            "type": "TrackerText",
+            "spec": {
+                "name": "points_text",
+                "defaultDisplayProperties": "points_text_dp",
+                "textProperties": "points_text_tp",
+                "target": "Points",
+                "sufix": " Pontos",
+                "format": "comma"
+            }
+        },
+        {
+            "type": "TrackerText",
+            "spec": {
+                "name": "step_text",
+                "defaultDisplayProperties": "step_text_dp",
+                "textProperties": "step_text_tp",
+                "target": "Step",
+                "prefix": "Etapa ",
+                "format": "comma"
+            }
+        },
+        {
+            "type": "TrackerText",
+            "spec": {
+                "name": "time_text",
+                "defaultDisplayProperties": "time_text_dp",
+                "textProperties": "time_text_tp",
+                "target": "Time",
+                "prefix": "Tempo ",
+                "format": "time_minutes"
+            }
+        },
+        {
+            "type": "Button",
+            "spec": {
+                "name": "next_bt1",
+                "defaultDisplayProperties": "next_bt_1_dp",
+                "normal": "btn_next_1_normal",
+                "over": "btn_next_1_over",
+                "clicked": "btn_next_1_pressed",
+                "message": "next_button_1_click"
+            }
+        },
+        {
+            "type": "Button",
+            "spec": {
+                "name": "next_bt2",
+                "normal": "btn_avancar2_habilitado",
+                "over": "btn_avancar2_over",
+                "clicked": "btn_avancar2_pressed"
+            }
+        },
+        {
+            "type": "Button",
+            "spec": {
+                "name": "back_bt2",
+                "normal": "btn_voltar2_habilitado",
+                "over": "btn_voltar2_over",
+                "clicked": "btn_voltar2_pressed",
+                "message": "back_button_2_click"
+            }
+        },
+        {
+            "type": "TextBox",
+            "spec": {
+                "name": "text_box",
+                "text": "Este texto não deveria estar aparecendo",
+                "variable": "Arlindo",
+                "image" : "carro_bg",
+                "defaultDisplayProperties": "text_box_dp"
+            }
+        },
+        {
+            "type": "ComponentsContainer",
+            "spec": {
+                "name": "layout_group",
+                "components": [
+                    {
+                        "name": "points_text"
+                    },
+                    {
+                        "name": "layout_graphic"
+                    },
+                    {
+                        "name": "player_progress_bar"
+                    },
+                    {
+                        "name": "step_text"
+                    },
+                    {
+                        "name": "time_text"
+                    },
+                    {
+                        "name": "layout_background"
+                    }
+                ]
+            }
+        }
+    ],
+    "displayProperties": [
+        {
+            "name": "default",
+            "x": 0,
+            "y": 0,
+            "depth": 0
+        },
+        {
+            "name": "layout_dp",
+            "x": 0,
+            "y": 0,
+            "depth": 1000
+        },
+        {
+            "name": "player_progress_bar_dp",
+            "x": 590,
+            "y": 42,
+            "depth": 1001
+        },
+        {
+            "name": "background_dp",
+            "x": 0,
+            "y": 0,
+            "depth": -1000
+        },
+        {
+            "name": "bottom_layer_dp",
+            "x": 0,
+            "y": 0,
+            "depth": -20000
+        },
+        {
+            "name": "points_text_dp",
+            "x": 703,
+            "y": 25,
+            "width": 75,
+            "height": 500,
+            "depth": 1002,
+            "alpha": 0.7
+        },
+        {
+            "name": "step_text_dp",
+            "x": 8,
+            "y": 98,
+            "width": 60,
+            "height": 500,
+            "depth": 1002,
+            "alpha": 0.7
+        },
+        {
+            "name": "time_text_dp",
+            "x": 700,
+            "y": 98,
+            "width": 60,
+            "height": 500,
+            "depth": 1002,
+            "alpha": 0.7
+        },
+        {
+            "name": "next_bt_1_dp",
+            "x": 700,
+            "y": 250,
+            "depth": 2000
+        },
+        {
+            "name": "text_box_dp",
+            "x": 300,
+            "y": 250,
+            "width": 200,
+            "height": 75,
+            "depth": 1002
+        },
+        {
+            "name": "text_dp_2",
+            "x": 300,
+            "y": 250,
+            "width": 200,
+            "height": 75,
+            "depth": 1002
+        }
+    ],
+    "textProperties": [
+        {
+            "name": "points_text_tp",
+            "font": "EurostileRegular",
+            "align": "right",
+            "textColor": 5592456,
+            "size": 20
+        },
+        {
+            "name": "step_text_tp",
+            "font": "EurostileRegular",
+            "align": "center",
+            "textColor": 5592456,
+            "size": 18
+        },
+        {
+            "name": "time_text_tp",
+            "font": "EurostileRegular",
+            "align": "center",
+            "textColor": 5592456,
+            "size": 18
+        }
+    ],
+    "variables": [
+        {
+            "name": "Step",
+            "start": 1,
+            "max": 3,
+            "min": 1
+        },
+        {
+            "name": "Points",
+            "start": 0,
+            "max": 450
+        },
+        {
+            "name": "Time",
+            "start": 2400,
+            "max": 2400
+        },
+        {
+            "name": "QuestionsAnswered",
+            "start": 0,
+            "max": 22
+        }
+    ],
+    "texts": {
+        "text0": "Blabalbalblabla text 0",
+        "text1": "Sample text Lorem ipisulu a dor lacinante"
+    }
+}
